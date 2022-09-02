@@ -1,6 +1,8 @@
 body
 {
-    background-color: grey;
+    background-image: url('admin.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .fonte
 {
@@ -11,9 +13,60 @@ body
     display: flex;
     flex-direction: column;
 }
+p
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
 .rodape
 {
     width: 100%;
     height: 80px;
     background-color: rgba(255, 255, 255, 0.418);
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.fonte
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.tabela1
+{
+    position: relative;
+    left: 540px;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+th
+{
+    border-style: solid;
+    border-color: black;
+}
+td
+{
+    border-style: solid;
+    border-color: black;
+}
+.tabela2
+{
+    position: relative;
+    left: 450px;
+    width: 650px;
+    height: 90px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
