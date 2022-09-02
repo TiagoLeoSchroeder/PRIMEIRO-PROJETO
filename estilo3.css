@@ -3,6 +3,7 @@ body
     background-image: url('musculacao.png');
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
 }
 *{
     margin:0;
@@ -11,9 +12,11 @@ body
 }
 .cima
 {
+    position: relative;
+    left: 2%;
     margin-top: 10px;
-    margin-left: 5px;
-    width: 1590px;
+    margin-left: 35px;
+    width: 90%;
     height: 120px;
     background-color: rgba(255, 255, 255, 0.418);
     border-style: solid;
@@ -33,18 +36,17 @@ details
     width: 150px;
     height: 50px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 83%;
     border-style: solid;
     border-radius: 10px;
     background-color: darkgray;
-
 }
 p
 {
     position: relative;
     left: 50px;
     top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
 }
 #menu
@@ -53,5 +55,14 @@ p
     bottom: 30px;
     width: 60px;
     height: 65px;
-    margin-left: 1500px;
+    margin-left: 90%;
+}
+.menu
+{
+    
+}
+.menu a
+{
+    text-decoration: none;
+    color: #fff;
 }
