@@ -10,7 +10,7 @@
 <body>
     <header class="cima">
             <p>LIFT WEIGHTS</p>
-       <button class="btn"> <img src="menu.png" id="menu"></button>
+       <button class="btn" onclick="Abrir()"><img src="menu.png" id="menu"></button>
        <div class="menu">
         <a href="treinos.html">SEUS TREINOS</a>
         <br>
@@ -25,6 +25,10 @@
         var menu =  document.querySelectorAll('menu');
 
         menu[0].addEventListener('click')
+
+        function Abrir(){
+            window.open('cadastro.html');
+        }
 </script>
 
 
