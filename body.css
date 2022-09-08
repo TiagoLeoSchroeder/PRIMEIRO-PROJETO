@@ -6,7 +6,7 @@ body
     margin-left: 7%;
     background-image: url('academia.jpg');
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
     background-position-x: 50%;
 }
 .um

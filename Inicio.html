@@ -9,14 +9,14 @@
 </head>
 <body>
     <header class="cima">
-            <p>LIFT WEIGHTS</p>
-       <button class="btn" onclick="Abrir()"><img src="menu.png" id="menu"></button>
-       <div class="menu">
-        <a href="treinos.html">SEUS TREINOS</a>
+    <p>LIFT WEIGHTS</p>
+    <div class="icon-menu"><i class="fas fa-bars"></i></div>
+    <div id="menu" class="menu hide">
+    <a href="treinos.html">SEUS TREINOS</a>
         <br>
-        <a href="suporte.html">SUPORTE</a>
+    <a href="suporte.html">SUPORTE</a>
         <br>
-        <a href="sobre.html">SOBRE</a>
+    <a href="sobre.html">SOBRE</a>
        </div>
     </header>
 </body>
@@ -24,11 +24,17 @@
 <script> 
         var menu =  document.querySelectorAll('menu');
 
-        menu[0].addEventListener('click')
+        menu[0].addEventListener('click',()=>{
 
-        function Abrir(){
-            window.open('cadastro.html');
-        }
+            let menu = document.getElementById('menu');
+            if(menu.classList.contains('hide')){
+                menu.classList.add('show');
+                menu.classList.add('hide');
+            }else{
+                menu.classList.add('hide');
+                menu.classList.add('show');
+            }
+        })
 </script>
 
 
