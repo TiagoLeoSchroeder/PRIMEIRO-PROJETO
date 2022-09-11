@@ -92,3 +92,22 @@ form button:focus {
     outline: none;
     background: #09d;
 }
+.voltar a                                           
+{ 
+    position: relative;
+    top: 20px;
+    right: 25px;
+    width: 180%;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
