@@ -56,7 +56,7 @@ label{
 
 input:focus + label{
     transform: translateY(-14px) scale(.8);
-    color:#26a96a
+    color:#26a96a;
 }
 
 input:focus{
