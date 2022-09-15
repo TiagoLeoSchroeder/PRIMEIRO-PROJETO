@@ -43,6 +43,8 @@ form
 
 form label{
     color: #fff;
+    display: flex;
+    margin-top: 20px;
 } 
 form input, 
 form textarea, 
