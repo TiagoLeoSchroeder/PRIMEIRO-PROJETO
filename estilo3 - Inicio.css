@@ -54,7 +54,6 @@ body .second-body
 }
 .container .card:hover .content
 {
-    background-size: auto;
     background-image: linear-gradient(#6441A5, #2a0845);
     transform: translateY(0px);
     opacity: 1;
