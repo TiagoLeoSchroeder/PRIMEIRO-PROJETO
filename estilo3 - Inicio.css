@@ -78,27 +78,28 @@ p
 }
 
 .dropdown{
-    width: 200px;
-    height: 90px;
+    width: 70px;
+    height: 10px;
     display: inline-block;
     position: relative;
-    left: 1200px;
-    bottom: 1.25rem;
+    left: 1310px;
+    bottom: 2.75rem;
 
 }
 
 
 .dropdown button
 {
-    width: 200px;
+    width: 80px;
+    height: 79px;
     padding: 8px 18px;
-    background-color: rgba(255, 255, 255, 0.418);
-    box-shadow: 1px 2px 20px #fff, 2px 6px 50px #fff;
+    background: rgba(255, 255, 255, 0.418);
+    box-shadow: 1px 2px 10px #000, 2px 6px 50px #000;
     color: #000;
-    border-radius: 10px;
+    border-radius: 50px;
     transition: 0.5s;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 32px;
     border-color: rgba(255,255,255,0.418);
 }
 
@@ -136,7 +137,40 @@ p
 }
 
 .dropdown div a:hover{
-    background-color: rgba(48, 46, 46, 0.418);
+    background: rgba(161, 18, 18, 0.765);
     color: #fff;
 
+}
+#perfil
+{
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card
+{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
