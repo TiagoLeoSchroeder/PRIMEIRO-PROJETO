@@ -1,13 +1,13 @@
 body
 {
-    background-image: url('musculacao.png');
+    background-image: url('musculacao.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
-    background-attachment: fixed;
 }
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 .cima
 {
@@ -17,10 +17,11 @@ body
     margin-left: 35px;
     width: 90%;
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.418);
-    border-style: solid;
-    border-radius: 10px;
-    box-shadow: 0.2em 0.3em 0.2em grey;
+    background: rgba(255, 255, 255, 0.418);
+    border-radius: 20px 0;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 p
 {
@@ -28,6 +29,7 @@ p
     left: 50px;
     top: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
     font-style: unset;
     font-size: 50px;
 }
@@ -73,4 +75,102 @@ p
 .menu a:hover
 {
     text-decoration: underline;
+}
+
+.dropdown{
+    width: 70px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    left: 1310px;
+    bottom: 2.75rem;
+
+}
+
+
+.dropdown button
+{
+    width: 80px;
+    height: 79px;
+    padding: 8px 18px;
+    background: rgba(255, 255, 255, 0.418);
+    box-shadow: 1px 2px 10px #000, 2px 6px 50px #000;
+    color: #000;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    border-color: rgba(255,255,255,0.418);
+}
+
+.dropdown button:hover
+{
+    background-color: #fff;
+}
+
+.dropdown div
+{
+    background-color: #fff;
+    box-shadow: 1px 2px 20px #fff, 2px 6px 50px #fff;
+    z-index: 1;
+    visibility: hidden;
+    position: absolute;
+    min-width: 100%;
+    opacity: 0;
+    transition:.3s;
+}
+
+.dropdown:hover div{
+    visibility: visible;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.dropdown div a{
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color: #000;
+    transition:.1s;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.dropdown div a:hover{
+    background: rgba(161, 18, 18, 0.765);
+    color: #fff;
+
+}
+#perfil
+{
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card
+{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

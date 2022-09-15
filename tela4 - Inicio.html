@@ -10,33 +10,45 @@
 <body>
     <header class="cima">
        <p>LIFT WEIGHTS</p>
-       
-       <img src="menu.png" id="icon-menu" onclick="Abrir()">
-        <div class="menu">
-            <a href="treinos.html">treinos</a>
-            <br>
-            <a href="contato.html">contato</a>
-            <br>
-            <a href="sobre.html">sobre</a>
+        <div class="dropdown" id="esconder">
+            <button><img src="perfil.png" id="perfil"></button>
+            <div>
+                <a href="tela8 - Perfil.html">Perfil</a>
+                <a href="tela9 - Configurações.html">Configurações</a>
+                <a href="tela1 - Site.html">Sair</a>
+            </div>
         </div>
     </header>
+
+    <div class="container-2">
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h1></h1>
+                <p></p>
+                <a href="tela4.1 - Treinos.html">Mais informações</a>
+            </div>
+        </div> 
+    </div>
+    <div class="container-2">
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h1></h1>
+                <p></p>
+                <a href="tela4.1 - Treinos.html">Mais informações</a>
+            </div>
+        </div> 
+    </div>
+    <div class="container-2">
+        <div class="card">
+            <div class="content">
+                <h2></h2>
+                <h1></h1>
+                <p></p>
+                <a href="tela4.1 - Treinos.html">Mais informações</a>
+            </div>
+        </div> 
+    </div>
 </body>
-
-<script> 
-        var iconMenu =  document.querySelectorAll('icon-menu');
-
-        iconMenu[0].addEventListener('click',()=>{
-
-            let menu = document.getElementById('menu');
-            if(menu.classList.contains('hide')){
-                menu.classList.add('show');
-                menu.classList.remove('hide');
-            }else{
-                menu.classList.add('hide');
-                menu.classList.remove('show');
-            }
-        })
-</script>
-
-
 </html>
