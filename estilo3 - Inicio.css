@@ -32,9 +32,10 @@ body .second-body
 .container .card
 {
     position: relative;
+    right: 2.25rem;
     width: 280px;
     height: 400px;
-    margin: 60px;
+    margin-left: 120px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 15px;
     background: rgba(255,255,255,0.1);
@@ -94,7 +95,7 @@ body .second-body
     text-decoration: none;
     border-radius: 20px;
     font-weight: 500;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 1px 2px 20px #fff, 1px 2px 25px #fff;
 }
 .cima
 {
@@ -212,6 +213,7 @@ p
     transition:.1s;
     white-space: nowrap;
     border-radius: 10px;
+    box-shadow: 1px 2px 20px #fff, 0.5px 1px 5px #fff;
 }
 .dropdown div a:hover{
     background: rgba(161, 18, 18, 0.765);
@@ -225,4 +227,6 @@ p
     right: 20px;
     width: 80px;
     height: 80px;
+    border-radius: 35px;
+    box-shadow: 1px 2px 20px #fff, 0.5px 1px 5px #fff;
 }
