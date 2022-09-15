@@ -143,9 +143,7 @@ p
     border-radius: 10px;
 }
 .hide { transition: 1s;height: 0; }
-
 .show{ transition: 1s;height: 0; }
-
 .menu a
 {
     position: relative;
@@ -163,7 +161,6 @@ p
 {
     text-decoration: underline;
 }
-
 .dropdown{
     width: 70px;
     height: 10px;
@@ -173,8 +170,6 @@ p
     bottom: 2.75rem;
 
 }
-
-
 .dropdown button
 {
     width: 80px;
@@ -189,12 +184,10 @@ p
     font-size: 32px;
     border-color: rgba(255,255,255,0.418);
 }
-
 .dropdown button:hover
 {
     background-color: #fff;
 }
-
 .dropdown div
 {
     background-color: #fff;
@@ -206,13 +199,11 @@ p
     opacity: 0;
     transition:.3s;
 }
-
 .dropdown:hover div{
     visibility: visible;
     opacity: 1;
     border-radius: 10px;
 }
-
 .dropdown div a{
     display: block;
     text-decoration: none;
@@ -222,7 +213,6 @@ p
     white-space: nowrap;
     border-radius: 10px;
 }
-
 .dropdown div a:hover{
     background: rgba(161, 18, 18, 0.765);
     color: #fff;

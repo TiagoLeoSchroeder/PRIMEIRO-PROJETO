@@ -22,7 +22,7 @@ body
     color: white;
     flex-direction: column;
     display: flex;
-    border-style: solid;
+    border-style: none;
     border-width: 80%;
 }
 h2
