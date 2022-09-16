@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    right: 2rem;
+    width: 90rem;
+    height: 10rem;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 1px 10px #fff;
+}
+.paragraph{
+    position: relative;
+    top: 2rem;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-shadow: -0.5rem 3px 5px #000;
+    text-align: center;
+}
+.btn 
+{
+    position: relative;
+    width: 42.30rem;
+    top: 3rem;
+    left: 1.25rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.btn a{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #fff;
+}
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
