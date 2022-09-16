@@ -8,6 +8,7 @@ body
     background-image: url('musculacao.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
 }
 body .second-body
 {
@@ -90,12 +91,12 @@ body .second-body
     display: inline-block;
     padding: 8px 20px;
     margin-top: 50px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     color: #000;
     text-decoration: none;
     border-radius: 20px;
     font-weight: 500;
-    box-shadow: 1px 2px 20px #fff, 1px 2px 25px #fff;
+    box-shadow: 1px 2px 20px #fff, 1px 2px 25px rgb(255, 255, 255);
 }
 .cima
 {
@@ -116,7 +117,7 @@ p
     position: relative;
     left: 50px;
     top: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #000;
     font-style: unset;
     font-size: 50px;
@@ -218,7 +219,6 @@ p
 .dropdown div a:hover{
     background: rgba(161, 18, 18, 0.765);
     color: #fff;
-
 }
 #perfil
 {
@@ -227,6 +227,9 @@ p
     right: 20px;
     width: 80px;
     height: 80px;
-    border-radius: 35px;
+    border-radius: 40px;
     box-shadow: 1px 2px 20px #fff, 0.5px 1px 5px #fff;
+}
+::-webkit-scrollbar {
+    display: none;
 }
