@@ -140,8 +140,12 @@ p
 .dropdown div a:hover{
     background: rgba(161, 18, 18, 0.765);
     color: #fff;
-
 }
+.dropdown a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 #perfil
 {
     position: relative;
