@@ -11,7 +11,7 @@
 <body>
     <form class="container">
         <div class="content">
-            <p class="paragraph">CONFIGURAÇÕES</p>
+            <p class="paragraph">🔧 CONFIGURAÇÕES 🔧</p>
         </div>
         
     </form>
@@ -19,8 +19,14 @@
         <div class="content-2">
             <button type="button" class="btn btn-outline-secondary"><a href="tela10 - Segurança">🔒 Segurança 🔐</a></button>
             <button type="button" class="btn btn-outline-secondary"><a href="tela11 - Notificacao">🔔 Notificações 🔔</a></button>
+            <button type="button" class="btn btn-outline-secondary"><a href="tela4 - Inicio.html">🎨 Aparência </a></button>
             <button type="button" class="btn btn-outline-secondary"><a href="tela4 - Inicio.html">⬅ Voltar ⬅</a></button>
         </div>
+        <div class="container-3"><button type="button" class="btn btn-outline-secondary"><a href="tela4 - Inicio.html">⬅ Voltar ⬅</a></button></div>
+        <div class="container-4 btn-outline-secondary" id="current-time"><div class="content-4"></div></div>
     </form>
+    <script>
+        document.getElementById('current-time').innerHTML = Date();
+    </script>
 </body>
 </html>
