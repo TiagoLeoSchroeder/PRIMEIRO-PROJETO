@@ -68,6 +68,24 @@ input:focus{
     text-align: center;
 }
 
+button{
+    background: transparent;
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border:2px solid white;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+button:hover{
+    background: rgba(255, 0, 0, 0.459);
+}
+
 .direcionar{
     background: transparent;
     padding: 15px 50px;
