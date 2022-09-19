@@ -22,12 +22,21 @@ body
     padding-right: 1rem;
 }
 
-h1,h2
+h1
 {
     font-size: 3rem;
     color: white;
     margin-bottom: 2rem;
     text-align: center;
+    text-shadow: 3px 5px 10px #000;
+}
+h2
+{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 3px 5px 10px #000;
 }
 form
 {
