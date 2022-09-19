@@ -29,13 +29,10 @@ h1,h2
     margin-bottom: 2rem;
     text-align: center;
 }
-
-h1::before {
-    content: "📄";
-    display: block; 
-}
 form
 {
+    position: relative;
+    bottom: 2rem;
     width: 100%;
     max-width: 32rem;
     font-size: 1.125rem;
@@ -103,7 +100,7 @@ form button:focus {
 .voltar {
     padding: 10px 210px;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     cursor: pointer;
     outline: none;
