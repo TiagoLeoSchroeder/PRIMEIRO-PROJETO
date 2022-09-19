@@ -68,7 +68,7 @@ input:focus{
     text-align: center;
 }
 
-button{
+.direcionar{
     background: transparent;
     padding: 15px 50px;
     border-radius: 20px;
@@ -82,17 +82,22 @@ button{
     font-size: 15px;
 }
 
-button:hover{
+.direcionar:hover{
     background: rgba(255, 0, 0, 0.459);
 }
 
-div a{
+.direcionar a{
+    text-decoration: none;
+    color: white;
+}
+
+div .link{
     text-decoration: none;
     color: white;
     transition: .25s ease-in-out;
 }
 
-div a:hover{
+div .link:hover{
     color:#26a96a;
 }
 
