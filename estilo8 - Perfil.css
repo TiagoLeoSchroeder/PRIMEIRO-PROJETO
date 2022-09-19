@@ -70,7 +70,8 @@ h1{
     align-items: center;
     text-decoration: none;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
     font-size: 25px;
     transition: 0.370s;
 }
