@@ -52,6 +52,7 @@ h1{
     border-color: rgba(255,255,255,0.9);
     border-width: 2px;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px #000;
     background-color: rgba(255,255,255,0.6);
     text-align: center;
     display: flex;
@@ -69,6 +70,8 @@ h1{
     align-items: center;
     text-decoration: none;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
     transition: 0.370s;
 }
 .button:hover{
