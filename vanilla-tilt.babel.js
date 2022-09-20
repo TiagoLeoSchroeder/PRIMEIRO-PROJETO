@@ -438,7 +438,7 @@ var VanillaTilt = function () {
    * @param {gyroscopeSamples} settings.gyroscopeSamples - How many gyroscope moves to decide the starting position.
    */
 
-
+  //Configurações padronizadas sobre o Vanilla Tilt.
   VanillaTilt.prototype.extendSettings = function extendSettings(settings) {
     var defaultSettings = {
       reverse: false,
