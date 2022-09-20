@@ -108,7 +108,7 @@ body
     background-color: #f75e06;
     border: none;
     border-radius: 8px;
-    box-shadow: 4px 5px #999;
+    box-shadow: 3px 5px #999;
     transition: 0.2s; 
     opacity: 0.9;
   }
@@ -123,6 +123,6 @@ body
   
   .voltar:active {
     background-color: #f75e06;
-    box-shadow: 0 5px #666;
+    box-shadow: 3px 5px #999;
     transform: translateY(4px);
   }
