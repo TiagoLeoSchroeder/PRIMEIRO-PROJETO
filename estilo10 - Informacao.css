@@ -8,9 +8,11 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    overflow-y: hidden;
 }
 .um
 {
+
     width: 110%;
     height: 800px;
     background:rgba(0,0,0,0.80);
@@ -27,6 +29,7 @@ body
 }
 h2
 {
+    top: -25px;
     position: absolute;
     left: 25%;
     width: 60%;
@@ -36,6 +39,9 @@ h5
 {
     width: 60%;
     text-align: left;
+}
+.imagens{
+    display: inline-block;
 }
 .btn {
     box-sizing: border-box;
