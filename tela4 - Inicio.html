@@ -9,14 +9,14 @@
 </head>
 <body>
     <header class="cima">
-       <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p>
+       <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4"></div></div>
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela8 - Perfil.html">Perfil</a>
-                <a href="tela9 - Configuracoes.html">Configurações</a>
-                <a href="tela7 - Listagem de treino.html">Lista dos Treinos</a>
-                <a href="tela1 - Site.html">Sair</a>
+                <a href="tela8 - Perfil.html">PERFIL</a>
+                <a href="tela9 - Configuracoes.html" >CONFIGURAÇÕES</a>
+                <a href="tela7 - Listagem de treino.html" >LISTA DE TREINOS</a>
+                <a href="tela1 - Site.html">SAIR</a>
             </div>
         </div>
     </header>
@@ -54,14 +54,16 @@
             </div>
         </div> 
     </div>
-    <p style="font-size: 23px; color: white; text-decoration: none; text-shadow: 2px 2px 10px #000; position: relative; top: 11rem;">TELEFONE: (47)XXXX-XXXX</p>
     <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
+    <script>
+        document.getElementById('current-time').innerHTML = Date();
+    </script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"), {
             max: 25,
             speed: 400,
             glare: true,
-            "max-glare": 1,
+            "max-glare": 0.5,
         });
     </script>
 </body>
