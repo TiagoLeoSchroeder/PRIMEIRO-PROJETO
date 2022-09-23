@@ -40,7 +40,8 @@ h5
     width: 60%;
     text-align: left;
 }
-.imagens{
+#imagem1, #imagem2, #imagem3{
+    margin: 2rem;
     display: inline-block;
 }
 .btn {
@@ -137,8 +138,7 @@ a
     text-decoration: none;
     color: grey;
 }
-::-webkit-scrollbar {
-    display: none;
-  }
-
+::-webkit-scrollbar{
+    display: block;
+}
 

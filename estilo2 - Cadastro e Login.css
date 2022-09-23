@@ -131,3 +131,7 @@ input:not(:placeholder-shown) + label{
 input::placeholder{
     color:transparent;
 }
+label select{
+    background-color: rgba(255,255,255,0.5);
+    width: 7rem;
+}

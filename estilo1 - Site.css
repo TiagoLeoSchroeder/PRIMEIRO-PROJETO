@@ -9,6 +9,26 @@ body
     background-size: cover;
     background-position-x: 50%;
 }
+.container{
+    position: relative;
+    left: 30rem;
+    bottom: 1rem;
+    width: 28rem;
+    height: 13rem;
+    border-style: solid;
+    border-radius: 0 10px 10px;
+    border-color: white;
+    box-shadow: 3px 5px 10px #fff;
+    background-color: rgba(255,255,255,0.4);
+
+}
+#logo{
+    position: relative;
+    left: 5rem;
+    bottom: 2rem;
+    width: 18rem;
+    height: 18rem;
+}
 .um
 {
     width: 110%;
@@ -28,12 +48,18 @@ body
 h2
 {
     text-align: center;
+    position: relative;
+    bottom: 10rem;
 }
 h5
 {
     text-align: center;
+    position: relative;
+    bottom: 10rem;
 }
 .btn {
+    position: relative;
+    bottom: 10rem;
     box-sizing: border-box;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -64,7 +90,7 @@ h5
 .botao {
     border-color: white;
     color: grey;
-    box-shadow: 0 0 40px 40px white inset, 0 0 0 0 white;
+    box-shadow: 0 0 40px 40px white inset, 0 0 0 0 #000;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
 }
@@ -81,6 +107,7 @@ a
 }
 .btn2 {
     position: relative;
+    bottom: 10rem;
     right: 43%;
     box-sizing: border-box;
     -webkit-appearance: none;
