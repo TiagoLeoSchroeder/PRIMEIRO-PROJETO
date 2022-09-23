@@ -9,6 +9,7 @@ body
     margin:0;
     padding:0;
     box-sizing: border-box;
+
 }
 .container-4{
     width: 50rem;
@@ -182,7 +183,7 @@ p
 {
     position: relative;
     left: 11.1rem;
-    top: 5rem;
+    top: 1rem;
     margin: 60px;
     width: 280px;
     height: 400px;
