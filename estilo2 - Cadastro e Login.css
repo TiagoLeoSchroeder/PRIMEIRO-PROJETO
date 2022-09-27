@@ -154,6 +154,7 @@ select{
 }
 select:hover{
     background-color: rgba(65, 65, 65, 0.9);
+    box-shadow: 3px 5px 10px #fff;
     color: #fff;
     opacity: 1;
 }
