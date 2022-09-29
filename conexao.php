@@ -1,7 +1,7 @@
 <?php 
 
 $hostname = "localhost";
-$bancodedados = "SENAI";
+$bancodedados = "academia";
 $usuario = "root";
 $senha = "";
 
@@ -10,3 +10,4 @@ if ($mysqli->connect_error) {
     echo "Falha ao conectar: (" . $mysqli->connect_error . ") " . $mysqli->connect_error;
 } else
     echo "Conectado!";
+?>
