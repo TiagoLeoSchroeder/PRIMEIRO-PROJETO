@@ -71,6 +71,7 @@ input:focus{
 button{
     background: transparent;
     padding: 15px 50px;
+    width: 13rem;
     border-radius: 20px;
     color: white;
     text-transform: uppercase;
@@ -151,9 +152,6 @@ select{
     transition: 0.3s;
     opacity: 0.7;
     cursor: pointer;
-}
-select option{
-    border-radius: 10px;
 }
 select:hover{
     background-color: rgba(65, 65, 65, 0.9);
