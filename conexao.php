@@ -1,13 +1,11 @@
-<?php 
-
-$hostname = "localhost";
-$bancodedados = "academia";
-$usuario = "root";
-$senha = "";
-
-$mysqli = new mysqli($hostname,$bancodedados,$usuario,$senha);
-if ($mysqli->connect_error) {
-    echo "Falha ao conectar: (" . $mysqli->connect_error . ") " . $mysqli->connect_error;
-} else
-    echo "Conectado!";
+<?php
+    date_default_timezone_set('America/Sao_Paulo');
+    
+    try{
+        $pdo = new PDO("mysql:dbname=academia;host=localhost;charset=utf8","root","");
+    }
+    catch(PDOException $erro)
+    {
+        echo("ERRO NA CONEXÃO: <br>".$erro->getMessage());
+    }
 ?>
