@@ -6,8 +6,6 @@
         exit;
     }
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,12 +19,6 @@
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4"></div></div>
         <div class="dropdown" id="esconder">
-        <?php
-    //verifica se o usuario conectado é administrador para mostrar a mensagem.
-    if ($_SESSION['is_adm_usuario'] == 1) {
-        echo '<p> Você é Administrador! </p>';
-    }
-    ?>
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
                 <a href="tela8 - Perfil.html">PERFIL</a>
