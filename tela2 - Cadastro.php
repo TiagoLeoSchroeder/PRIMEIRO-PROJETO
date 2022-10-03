@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -52,6 +54,7 @@
     </div>
     <script>
         function Voltar(){
+            window.close('tela2 - Cadastro.html');
             window.open('tela1 - Site.html');
         }
     </script>

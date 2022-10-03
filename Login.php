@@ -1,27 +1,43 @@
-<?php 
-    $email = $_POST['email'];
-    $senha = $_POST['senha'];
+<?php
+    include("conexao.php");
 
-    $comando = $pdo->prepare("SELECT idusuario,senha_usuario,is_adm_usuario FROM usuario WHERE email_usuario = :email");
-    $comando->bindValue(":email",$email);
+    //atribuindo valores dos campos a variaveis.
+    $email = $_POST["email"];
+    $set_senha = $_POST["senha"];
+
+    //comando sql.
+    $comando = $pdo->prepare("SELECT pk_usuario, senha_usuario, is_adm_usuario FROM usuario WHERE email_usuario = :email");
+
+    //insere valores das variaveis no comando sql.
+    $comando->bindValue(":email", $email);
+
+    //executa a consulta no banco de dados.
     $comando->execute();
 
-    if($comando->rowCount() == 1)
-    {
+    //Se a consulta retornar uma única linha significa que o email inserido existe.
+    if ($comando->rowCount() == 1) {
         $resultado = $comando->fetch();
-        
-        if($resultado['senha_usuario'] == MD5($set_senha){
 
+        //Comparar senha informada com a senha armazenado no banco de dados.
+        if ($resultado['senha_usuario'] == MD5($set_senha)) {
+            //inicia uma sessão.
             session_start();
-            $_SESSION['pk_usuario'] - $resultado['pk_usuario'];
-            $_SESSION['is_adm_usuario'] - $resultado['is_adm_usuario'];
+
+            //insere informações na sessão.
+            $_SESSION['pk_usuario'] = $resultado['pk_usuario'];
+            $_SESSION['senha_usuario'] = $resultado['senha_usuario'];
+            $_SESSION['is_adm_usuario'] = $resultado['is_adm_usuario'];
             $_SESSION['loggedin'] = true;
-            
-            header("Location: pagina_inicial.php");
 
+            //redireciona para a pagina informada.
+            header("Location:pagina_inicial.php");
+        } else {
+            echo ("Email ou Senha Inválida!");
         }
-    }else{
-        echo("Email ou senha incorreto!");
+    } else {
+        echo ("Email ou Senha Inválida!");
     }
-
+    //Fecha declaração e conexão.
+    unset($comando);
+    unset($pdo);
 ?>
