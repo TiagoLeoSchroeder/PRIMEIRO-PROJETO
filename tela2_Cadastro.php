@@ -12,33 +12,33 @@
         <h2>Cadastro</h2>
         <form action="inserir.php" method="post">
             <div class="input-field">
-                <input type="text" id="nome" placeholder="alguma coisa" required>
+                <input type="text" id="nome" name="nome" placeholder="alguma coisa" required>
                 <label for="nome">Nome:</label>
             </div>
 
             <div class="input-field">
-                <input type="text" id="senha" placeholder="alguma coisa" required>
+                <input type="text" id="senha" name="email" placeholder="alguma coisa" required>
                 <label for="senha">Email:</label>
             </div>
 
             <div class="input-field">
-                <input type="password" id="senha" placeholder="alguma coisa" required>
+                <input type="password" id="senha" name="senha" placeholder="alguma coisa" required>
                 <label for="senha">Senha:</label>
             </div>
 
             <div class="container-2">
-                <select name="format" id="format" required>
+                <select name="genero" id="format" required>
                 <option value="0" selected disabled>Seu Gênero:</option>
-                <option value="1">Masculino</option>
-                <option value="2">Feminino</option>
-                <option value="3">Outro</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Outro</option>
                 </select>
 
-                <select name="format" id="format" required>
+                <select name="biotipo" id="format" required>
                         <option value="0" selected disabled>Seu Biotipo:</option>
-                        <option value="1">Endomorfo</option>
-                        <option value="2">Mesomorfo</option>
-                        <option value="3">Ectomorfo</option>
+                        <option value="Endomorfo">Endomorfo</option>
+                        <option value="Mesomorfo">Mesomorfo</option>
+                        <option value="Ectomorfo">Ectomorfo</option>
                 </select>
             </div>
            
@@ -52,8 +52,8 @@
     </div>
     <script>
         function Voltar(){
-            window.close('tela2 - Cadastro.html');
-            window.open('tela1 - Site.html');
+            window.close('tela2_Cadastro.html');
+            window.open('tela1_Site.html');
         }
     </script>
 </body>

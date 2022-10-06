@@ -15,9 +15,10 @@
     $biotipo = $_POST["biotipo"];
 
     //comando SQL.
-    $comando = $pdo -> prepare("INSERT INTO usuario(nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario) VALUES(:email,:senha,:genero,:biotipo)");  
+    $comando = $pdo -> prepare("INSERT INTO usuario(nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario) VALUES(:nome,:email,:senha,:genero,:biotipo)");  
     
     //insere valores das variaveis no comando sql.
+    $comando->bindValue(":nome",$nome);
     $comando->bindValue(":email",$email);                                     
     $comando->bindValue(":senha",$senha);     
     $comando->bindValue(":genero",$genero);                                  
