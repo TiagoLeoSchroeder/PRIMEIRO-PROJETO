@@ -30,7 +30,7 @@
             $_SESSION['loggedin'] = true;
 
             //redireciona para a pagina informada.
-            header("Location:tela4_inicio.php");
+            header("Location:tela4_Inicio.php");
         } else {
             echo ("Email ou Senha Inválida!");
         }

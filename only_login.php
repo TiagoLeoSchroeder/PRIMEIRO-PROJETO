@@ -17,7 +17,7 @@
     
     //Comparar senha informada com a senha armazenado no banco de dados.
     if($get_senha == MD5($set_senha)){
-        header("Location:pagina_inicial.html");
+        header("Location:tela4_Inicio.php");
     }else{
         echo("Email ou Senha Inválida");
     }
