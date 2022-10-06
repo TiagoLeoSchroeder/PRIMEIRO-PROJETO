@@ -25,7 +25,7 @@
     $comando->execute();
 
     //redireciona para a pagina informada.
-    header("Location:cadastrar.php");
+    header("Location:tela2_Cadastro.php");
 
     //Fecha declaração e conexão.
     unset($comando);
