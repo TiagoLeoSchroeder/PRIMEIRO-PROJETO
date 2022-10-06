@@ -21,10 +21,10 @@
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela8 - Perfil.html">PERFIL</a>
-                <a href="tela9 - Configuracoes.html" >CONFIGURAÇÕES</a>
-                <a href="tela7 - Listagem de treino.html" >LISTA DE TREINOS</a>
-                <a href="tela1 - Site.html">SAIR</a>
+                <a href="tela8_Perfil.html">PERFIL</a>
+                <a href="tela9_Configuracoes.html" >CONFIGURAÇÕES</a>
+                <a href="tela7_Listagem de treino.html" >LISTA DE TREINOS</a>
+                <a href="tela1_Site.html">SAIR</a>
             </div>
         </div>
     </header>
@@ -38,7 +38,7 @@
                 <h3>TREINOS DE MUSCULAÇÃO</h3>
                 <p>TREINOS PERSONALIZADOS PARA VOCÊ FAZER NA CONFORTO DA SUA CASA.</p>
                 <br><br>
-                <a href="tela11 - musculacao.html">Mais informações</a>
+                <a href="tela11_musculacao.html">Mais informações</a>
             </div>
         </div> 
         <div class="card">
@@ -48,7 +48,7 @@
                 <h3>SOBRE O SITE</h3>
                 <p>SOBRE O NOSSO SITE DE ATIVIDADES FÍSICAS</p>
                 <br>
-                <a href="tela10 - Informacao.html">Mais informações</a>
+                <a href="tela10_Informacao.html">Mais informações</a>
             </div>
         </div> 
         <div class="card">
@@ -58,7 +58,7 @@
                 <h3>SUPORTE AO CLIENTE</h3>
                 <p>CASO QUEIRA MANDAR ALGUM E-MAIL</p>
                 <br> <br>
-                <a href="tela5 - Contato.html">Mais informações</a>
+                <a href="tela5_Contato.html">Mais informações</a>
             </div>
         </div> 
     </div>
