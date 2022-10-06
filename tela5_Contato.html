@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOS MANDE UM E-MAIL</title>
+    <link rel="Stylesheet" href="estilo4 - contato.css">
+</head>
+<body>
+    <h1>📧ㅤSUPORTE AO CLIENTEㅤ📧</h1>
+    <form action="https://formsubmit.co/tiago_l_schroeder@estudante.sc.senai.br" method="POST" >
+        <label for="name">Nome</label>
+        <input type="text" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message"required></textarea>
+        <input type="hidden" name="_captcha" value="false"/>
+        <br>
+        <button type="submit" onclick="Enviar()">ENVIAR</button>
+   </form>
+
+   <div class="voltar"><p><a href="tela4_Inicio.php">VOLTAR</p></a></div>
+
+   <script>
+    function Enviar(){
+        window.close('tela5 - Contato.html');
+        window.open('tela6 - obrigado.html');
+    }
+</script>
+</body>
+</html>
