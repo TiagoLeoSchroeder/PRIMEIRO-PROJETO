@@ -34,8 +34,6 @@
         } else {
             echo ("Email ou Senha Inválida!");
         }
-    } else {
-        echo ("Email ou Senha Inválida!");
     }
     //Fecha declaração e conexão.
     unset($comando);
