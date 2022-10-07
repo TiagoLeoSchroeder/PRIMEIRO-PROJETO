@@ -2,7 +2,7 @@
     session_start();
     // Verifique se o usuário está logado, se não, redirecione-o para uma página de login
     if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-        header("location: tela4.1_Inicio2.html");
+        header("location: tela3_Logar.html");
         exit;
     }
 ?>
@@ -17,7 +17,10 @@
 </head>
 <body>
     <header class="cima">
-       <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4"></div></div>
+       <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> 
+       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4">
+        </div>
+            </div>
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>

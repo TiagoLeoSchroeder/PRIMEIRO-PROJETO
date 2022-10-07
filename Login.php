@@ -15,7 +15,7 @@
     $comando->execute();
 
     //Se a consulta retornar uma única linha significa que o email inserido existe.
-    if ($comando->rowCount() == 1) {
+    if ($comando->RowCount() == 1) {
         $resultado = $comando->fetch();
 
         //Comparar senha informada com a senha armazenado no banco de dados.
