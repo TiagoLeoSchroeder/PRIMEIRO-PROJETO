@@ -17,7 +17,7 @@
             </div>
 
             <div class="input-field">
-                <input type="text" id="senha" name="email" placeholder="alguma coisa" required>
+                <input type="text" id="email" name="email" placeholder="alguma coisa" required>
                 <label for="senha">Email:</label>
             </div>
 
@@ -27,14 +27,14 @@
             </div>
 
             <div class="container-2">
-                <select name="genero" id="format" required>
+                <select name="genero" class="format" required>
                 <option value="0" selected disabled>Seu Gênero:</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
                 <option value="Outro">Outro</option>
                 </select>
 
-                <select name="biotipo" id="format" required>
+                <select name="biotipo" class="format" required>
                         <option value="0" selected disabled>Seu Biotipo:</option>
                         <option value="Endomorfo">Endomorfo</option>
                         <option value="Mesomorfo">Mesomorfo</option>
