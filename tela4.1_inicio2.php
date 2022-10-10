@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    // Verifique se o usuário está logado, se não, redirecione-o para uma página de login
+    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+        header("location: tela3_Logar.html");
+        exit;
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +16,13 @@
     <link rel="StyleSheet" href="estilo3.1 - Inicio2.css">
 </head>
 <body>
+    <?php 
+            if ($_SESSION['is_adm_usuario'] == 1) {
+                echo '<p> Você é Administrador! </p>
+                <a href="listar_usuario.php">Listar Usuários</a>
+                ';
+            }
+    ?>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p>
         <div class="dropdown" id="esconder">

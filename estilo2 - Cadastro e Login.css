@@ -70,13 +70,13 @@ input:focus{
 
 button{
     background: transparent;
-    padding: 15px 50px;
+    padding: 15px 60px;
     width: 13rem;
     border-radius: 20px;
     color: white;
     text-transform: uppercase;
     border:2px solid white;
-    margin-top: 10%;
+    margin-top: 5%;
     cursor: pointer;
     transition: ease-in-out .25s;
     font-family: monospace;
@@ -94,7 +94,7 @@ button:hover{
     color: white;
     text-transform: uppercase;
     border:2px solid white;
-    margin: 20px;
+    margin: 15px;
     cursor: pointer;
     transition: ease-in-out .25s;
     font-family: monospace;

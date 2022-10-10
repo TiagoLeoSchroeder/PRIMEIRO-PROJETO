@@ -1,3 +1,63 @@
+<style>
+    body{
+        background-image: url('fundo4.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    p{
+        width: 90%;
+        height: 20%;
+        background-color: rgba(255,255,255,0.418);
+        font-size: 7rem;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        top: 30%;
+        left: 5%;
+        color: #000;
+        text-shadow: 3px 5px 10px #fff;
+        box-shadow: 3px 5px 10px #fff;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 1px;
+        border-radius: 20px;
+    }
+    button{
+        width: 30%;
+        height: 12%;
+        position: relative;
+        top: 30%;
+        left: 35%;
+        font-size: 3.6rem;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;  
+        background-color: rgba(255,255,255,255);
+        text-align:center;
+        text-shadow:3px 5px 10px white;
+        box-shadow: 3px 5px 10px white;
+        text-decoration: none;
+        color: black;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        border-radius: 15px;
+        transition: 0.3s;
+        opacity: 0.4;
+    }
+    button:hover{
+        opacity: 1;
+    }
+    button:active{
+        background-color: rgba(255,255,255,255); 
+        transform: translateY(10px);
+    }
+
+</style>
+
 <?php
     include("conexao.php");
 
@@ -32,12 +92,20 @@
             //redireciona para a pagina informada.
             header("Location:tela4_Inicio.php");
         } else {
-            echo ("Email ou Senha Inválida!");
+            echo "<script type='javascript'>alert('Email ou Senha Inválidos!');</script>";
         }
     } else {
-        echo ("Email ou Senha Inválida!");
+        echo "<p>Email ou Senha Inválidos!</p>";
     }
     //Fecha declaração e conexão.
     unset($comando);
     unset($pdo);
 ?>
+
+<button onclick="Voltar()">Voltar</button>
+<script>
+    function Voltar(){
+        window.open('tela3_Logar.html');
+        window.close('Login.php');
+    }
+</script>
