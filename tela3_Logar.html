@@ -13,7 +13,10 @@
         <h2>Login</h2>
         <form action="Login.php" method="post">
             <div class="input-field">
+ 
                 <input type="text" id="nome" name="email" placeholder="alguma coisa" required>
+
+                <input type="text" id="email" name="email" placeholder="alguma coisa" required>
                 <label for="nome">Email:</label>
             </div>
 
@@ -22,16 +25,20 @@
                 <label for="senha">Senha:</label>
             </div>
 
+ 
             <button type="submit" class="direcionar" onclick="Alertar()">ENVIAR</button>
             <div class="center">
                 <button onclick="Voltar()">Sair</button>
             </div>
+
+            <button type="submit" required>ENTRAR COMO CLINTE</button>
+ 
         </form>
         <div class="links-uteis">
             <br>
             <a href="esqueceu.html" class="link"><p>Esqueceu a sua senha?</p></a>
             <br>
-            <a href="Cadastro.html" class="link"><p>Ainda não sou cadastrado</p></a>
+            <a href="tela2_Cadastro.php" class="link"><p>Ainda não sou cadastrado</p></a>
         </div>
     </div>
     <script>
