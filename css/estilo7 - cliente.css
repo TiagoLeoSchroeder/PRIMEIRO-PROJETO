@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('preto_e_laranja.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.rodape
+{
+    position: relative;
+    left: 2.5rem;
+    width: 95rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.418);
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    border-radius: 0px 0px 25px 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.rodape .fonte
+{
+    font-size: 5.5rem;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    text-shadow: 4px 2px 5px white;
+}
+.paragraph{
+    position: relative;
+    top: 6rem;
+    left: 2rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    text-shadow: 3px 2px 4px #000;
+}
+.paragraph-2{
+    position: relative;
+    left: 30rem;
+    top: 4rem;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    text-shadow: 3px 2px 4px #000;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.container-1{
+    position: relative;
+    left: 6.5rem;
+    top: 7.6rem;
+    border-style: solid;
+    border-radius: 5px;
+}
+.container-1 th{
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    border-style: solid;
+    border-radius: 0.4rem;
+    box-shadow: 3px 5px 6px #000;
+    border-color: rgba(255, 255, 255, 0.418);
+}
+.container-2{
+    position: relative;
+    left: 30rem;
+    top: 7rem;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.418);
+    border-radius: 5px;
+}
+.container-2 th{
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    border-style: solid;
+    border-radius: 0.4rem;
+    box-shadow: 2px 3px 5px #000;
+    border-color: rgba(255, 255, 255, 0.418);
+}
+.voltar {
+    position: relative;
+    left: 78rem;
+    top: 25rem;
+    width: 20rem;
+    height: 3.8rem;
+    font-size: 2.1rem;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 5px #999;
+    transition: 0.2s; 
+    opacity: 0.9;
+  }
+.voltar a 
+  {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .voltar:hover {outline: none; background: #f75e06;}
+  
+  .voltar:active {
+    background-color: #f75e06;
+    box-shadow: 5px 7px 10px #fff;
+    transform: translateY(4px);
+  }
+  .Listar{
+    position: relative;
+    left: 1rem;
+    top: 24rem;
+    width: 20rem;
+    height: 3.8rem;
+    font-size: 2.1rem;
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 3px 5px #999;
+    transition: 0.2s; 
+    opacity: 0.9;
+  }
+  .Listar:hover{
+    outline: none;
+    background: #f75e06;
+  }
+  .Listar:active {
+    background-color: #f75e06;
+    box-shadow: 5px 7px 10px #fff;
+    transform: translateY(4px);
+  }

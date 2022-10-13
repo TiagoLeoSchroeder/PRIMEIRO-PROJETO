@@ -42,6 +42,8 @@
                 </select>
             </div>
            
+            <input type="file" class="input-field" name="imagem" id="imagem"></input>
+
             <div class="center">
                 <button>Cadastrar</button>
             </div>

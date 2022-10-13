@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('fundo4.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1
+{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 3px 5px 10px #000;
+}
+h2
+{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 3px 5px 10px #000;
+}
+form
+{
+    position: relative;
+    bottom: 2rem;
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+
+form label{
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+} 
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: black;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+}
+
+form input,
+form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 8px;    
+    transition: border-color,
+    box-shadow 0.2s;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+}
+
+form textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+form input:hover,
+form input:focus,
+form textarea:hover,
+form textarea:focus {
+    outline: none;
+    border-color: grey;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+}
+
+form button{
+    display: block;
+    padding: 15px 180px;
+    background-color: #04AA6D;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transition: 0.2s; 
+    border: none;
+    border-radius: 8px;  
+    box-shadow: 4px 5px #999, 2px 6px #999;
+}
+
+form button:hover,
+form button:focus {
+    outline: none;
+    background: grey;
+}
+.voltar {
+    padding: 10px 210px;
+    font-size: 24px;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 5px #999;
+    transition: 0.2s; 
+    opacity: 0.9;
+  }
+
+  .voltar a 
+  {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .voltar:hover {outline: none; background: grey;}
+  
+  .voltar:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

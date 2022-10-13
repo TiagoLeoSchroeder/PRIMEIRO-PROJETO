@@ -19,7 +19,7 @@
     <?php 
             if ($_SESSION['is_adm_usuario'] == 1) {
                 echo '<p> Você é Administrador! </p>
-                <a href="listar_usuario.php">Listar Usuários</a>
+                <a href="listar_usuarios.php">Listar Usuários</a>
                 ';
             }
     ?>
