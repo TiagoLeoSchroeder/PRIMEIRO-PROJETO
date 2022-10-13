@@ -128,7 +128,8 @@ p
     position: absolute;
     min-width: 100%;
     opacity: 0;
-    transition:.3s;
+    transition:.2s;
+    cursor: pointer;
 }
 
 .dropdown:hover div{
@@ -144,11 +145,13 @@ p
     color: #000;
     transition:.1s;
     white-space: nowrap;
-    border-radius: 10px;
+    border-radius: 10rem;
+    cursor: pointer;
 }
 
 .dropdown div a:hover{
-    background: rgba(161, 18, 18, 0.765);
+    background: rgba(99, 57, 57, 0.765);
+    box-shadow: 2px 4px 10px rgba(161, 18, 18, 0.765);
     color: #fff;
 }
 .dropdown a:active {
@@ -160,10 +163,11 @@ p
 {
     position: relative;
     bottom: 5rem;
-    right: 50rem;
+    right: 10rem;
     width: 7rem;
     height: 7rem;
-    border-radius: 10rem;
+    cursor: pointer;
+    border-radius: 10px;
     box-shadow: 20px 5px 30px #fff;
 }
 

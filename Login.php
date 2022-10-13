@@ -92,10 +92,10 @@
             //redireciona para a pagina informada.
             header("Location:tela4_Inicio.php");
         } else {
-            echo "<script type='javascript'>alert('Email ou Senha Inválidos!');</script>";
+            echo "<p>Email ou Senha Inválida</p>";
         }
     } else {
-        echo ("Email ou Senha Inválida!");
+        echo ("<p>Email ou Senha Inválida!</p>");
     }
     //Fecha declaração e conexão.
     unset($comando);

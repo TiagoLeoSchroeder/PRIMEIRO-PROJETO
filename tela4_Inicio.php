@@ -1,11 +1,4 @@
-<?php
-    session_start();
-    // Verifique se o usuário está logado, se não, redirecione-o para uma página de login
-    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-        header("location: tela4.1_Inicio2.html");
-        exit;
-    }
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +9,13 @@
     <link rel="StyleSheet" href="estilo3 - Inicio.css">
 </head>
 <body>
-<?php
-    //verifica se o usuario conectado é administrador.
-
-    ?>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> 
        <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4">
         </div>
             </div>
         <div class="dropdown" id="esconder">
-            <button><img src="chad.jpg" id="perfil"></button>
+            <button><img src="chad.jpg" id="perfil" style="position: relative; right: 1.35rem; bottom: 0.6rem;"></button>
             <div>
                 <a href="tela8_Perfil.html">PERFIL</a>
                 <a href="tela9_Configuracoes.html" >CONFIGURAÇÕES</a>
@@ -72,8 +61,8 @@
     <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
     <script>
         document.getElementById('current-time').innerHTML = Date();
-    </script>
-    <script>
+    
+    
         VanillaTilt.init(document.querySelectorAll(".card"), {
             max: 25,
             speed: 400,
