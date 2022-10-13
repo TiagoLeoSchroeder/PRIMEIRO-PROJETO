@@ -1,9 +1,6 @@
 <?php
-    include('listar_usuario.php')
-
-    
+    include('listar_usuario.php')  
 ?>
-
 <table>
     <thead>
         <tr>
@@ -21,6 +18,7 @@
                 foreach($lista_usuarios as $linha) { ?>
             <?php }} ?>
             <tr>
+                <td><?php echo '<img height="40px" width="40px" scr="' .$linha["imagem_usuario"].'"'; ?></td>
                 <td><?php echo $linha['pk_usuario']?></td>
                 <td><?php echo $linha['nome_usuario']?></td>
                 <td><?php echo $linha['email_usuario']?></td>
