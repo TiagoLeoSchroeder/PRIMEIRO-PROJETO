@@ -10,7 +10,7 @@
 
     if($comando->rowCount() >= 1)
     {
-        $informacoes_usuario = $comando->fetch();
+        $lista_usuario = $comando->fetchAll();
     }else {
         echo("Não há usuários Cadastrados!");
     }
