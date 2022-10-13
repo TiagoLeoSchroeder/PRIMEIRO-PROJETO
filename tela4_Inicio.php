@@ -15,7 +15,7 @@
         </div>
             </div>
         <div class="dropdown" id="esconder">
-            <button><img src="chad.jpg" id="perfil" style="position: relative; right: 1.35rem; bottom: 0.6rem;"></button>
+            <button><img src="chad.jpg" id="perfil" style="position: relative; right: 1.25rem; bottom: 0.6rem;"></button>
             <div>
                 <a href="tela8_Perfil.html">PERFIL</a>
                 <a href="tela9_Configuracoes.html" >CONFIGURAÇÕES</a>
