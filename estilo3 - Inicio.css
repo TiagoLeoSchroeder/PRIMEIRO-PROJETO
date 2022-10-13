@@ -150,8 +150,8 @@ p
 }
 
 .dropdown div a:hover{
-    background: rgba(99, 57, 57, 0.765);
-    box-shadow: 2px 4px 10px rgba(161, 18, 18, 0.765);
+    background: rgba(161, 18, 18, 0.765);
+    box-shadow: 2px 4px 10px rgba(126, 60, 60, 0.765);
     color: #fff;
 }
 .dropdown a:active {
