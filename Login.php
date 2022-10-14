@@ -94,8 +94,6 @@
              if ($_SESSION['is_adm_usuario'] == 1) {
                 header("Location:tela_inicio_admin.php");
                 echo '<p> Você é Administrador! </p>';
-            } else{
-                header("Location:tela_inicio_cliente.php");
             }
         } else {
             echo "<p>Email ou Senha Inválida</p>";
@@ -111,7 +109,7 @@
 <button onclick="Voltar()">Voltar</button>
 <script>
     function Voltar(){
-        window.open('tela3_Logar.html');
+        window.open('tela_Logar.html');
         window.close('Login.php');
     }
 </script>

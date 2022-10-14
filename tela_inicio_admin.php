@@ -16,18 +16,17 @@
     <link rel="StyleSheet" href="estilo3.1_Inicio2.css">
 </head>
 <body>
-    <?php 
-           
-    ?>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p>
+       <br>
+       <p>BEM-VINDO ADMINISTRADOR</p>
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela8_Perfil.html">Perfil</a>
-                <a href="tela9_Configuracoes.html">Configurações</a>
-                <a href="tela7.1_Admin.html">Lista do Admin</a>
-                <a href="tela1_Site.html">Sair</a>
+                <a href="tela_Perfil_Admin.html">Perfil</a>
+                <a href="tela_Configuracoes_admin.html">Configurações</a>
+                <a href="tela_Admin.php">Lista do Admin</a>
+                <a href="tela_site.html">Sair</a>
             </div>
         </div>
     </header>
