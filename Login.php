@@ -90,7 +90,13 @@
             $_SESSION['loggedin'] = true;
 
             //redireciona para a pagina informada.
-            header("Location:tela_Inicio_cliente.php");
+
+             if ($_SESSION['is_adm_usuario'] == 1) {
+                header("Location:tela_inicio_admin.php");
+                echo '<p> Você é Administrador! </p>';
+            } else{
+                header("Location:tela_inicio_cliente.php");
+            }
         } else {
             echo "<p>Email ou Senha Inválida</p>";
         }

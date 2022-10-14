@@ -17,10 +17,7 @@
 </head>
 <body>
     <?php 
-            if ($_SESSION['is_adm_usuario'] == 1) {
-                header("Location:tela4.1_Inicio2.php");
-                echo '<p> Você é Administrador! </p>';
-            }
+           
     ?>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p>
