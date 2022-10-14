@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME</title>
-    <link rel="StyleSheet" href="estilo3 - Inicio.css">
+    <link rel="StyleSheet" href="estilo3_Inicio.css">
 </head>
 <body>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> 
-       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px;"><div class="content-4">
+       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px; position: relative; top: 5rem; left: 1.25rem;" ><div class="content-4">
         </div>
             </div>
         <div class="dropdown" id="esconder">

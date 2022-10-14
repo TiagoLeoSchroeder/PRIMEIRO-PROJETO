@@ -25,4 +25,4 @@
                 <td><?php echo $linha['is_adm_usuario']?></td>
             </tr>
     </tbody>
-</table>
+</table>  

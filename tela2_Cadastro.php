@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="StyleSheet" href="estilo2 - Cadastro e Login.css">
+    <link rel="StyleSheet" href="estilo2_Cadastro e Login.css">
 </head>
 <body>
     <div class="container">
