@@ -88,7 +88,7 @@
             $_SESSION['senha_usuario'] = $resultado['senha_usuario'];
             $_SESSION['is_adm_usuario'] = $resultado['is_adm_usuario'];
             $_SESSION['loggedin'] = true;
-
+            
             //redireciona para a pagina informada.
             header("Location:tela4_Inicio.php");
         } else {

@@ -18,9 +18,8 @@
 <body>
     <?php 
             if ($_SESSION['is_adm_usuario'] == 1) {
-                echo '<p> Você é Administrador! </p>
-                <a href="listar_usuarios.php">Listar Usuários</a>
-                ';
+                header("Location:tela4.1_Inicio2.php");
+                echo '<p> Você é Administrador! </p>';
             }
     ?>
     <header class="cima">
