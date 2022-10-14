@@ -73,7 +73,6 @@ body{
     align-items: center;
     display: flex;
     color: white;
-    transition: 0.370s;
     border: solid rgb(107, 106, 106);
     border-radius: 5px;
     border-width: 1px;
