@@ -1,6 +1,4 @@
-<?php
-    include('listar_usuario.php')  
-?>
+<html>
 <table>
     <thead>
         <tr>
@@ -26,3 +24,4 @@
             </tr>
     </tbody>
 </table>  
+</html>

@@ -63,7 +63,7 @@
              transition: 0.5s;            
              label:hover{background: rgba(255, 0, 0, 0.459);}
              ">
-            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;">ENVIAR ARQUIVO</input>
+            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;" multiple accept="image/*">ENVIAR ARQUIVO</input>
     </label>
 
     <br>

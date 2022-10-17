@@ -14,10 +14,15 @@
 
     $biotipo = $_POST["biotipo"];
 
-    $imagem = $_POST["imagem"];
+    $extensao = $imagem['type'];
+
+    $conteudo = file_get_contents($imagem['tmp_name']);
+
+    $base64 = "data:".$extensao.";base64,".base64_encode($conteudo);
+
 
     //comando SQL.
-    $comando = $pdo -> prepare("INSERT INTO usuario(nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, imagem_usuario, is_adm_usuario) VALUES(:nome,:email,:senha,:genero,:biotipo,:imagem, 0)");  
+    $comando = $pdo -> prepare("INSERT INTO usuario(nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, imagem_usuario, is_adm_usuario) VALUES(:nome,:email,:senha,:genero,:biotipo,:conteudo, 0)");  
     
     //insere valores das variaveis no comando sql.
     $comando->bindValue(":nome",$nome);
@@ -25,7 +30,7 @@
     $comando->bindValue(":senha",$senha);     
     $comando->bindValue(":genero",$genero);                                  
     $comando->bindValue(":biotipo",$biotipo);  
-    $comando->bindValue(":imagem",$imagem);    
+    $comando->bindValue(":conteudo",$base64);    
     
     //executa o comando SQL, ou seja, insere os dados no banco de dados.
     $comando->execute();
