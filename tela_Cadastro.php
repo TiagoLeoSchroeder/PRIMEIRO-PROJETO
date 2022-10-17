@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="StyleSheet" href="estilo2_Cadastro e Login.css">
+    <link rel="StyleSheet" href="estilo_cadastro_login.css">
 </head>
 <body>
     <div class="container">
@@ -71,15 +71,11 @@
                 <button>Cadastrar</button>
             </div>
             <div class="center">
-                <button onclick="Voltar()">Sair</button>
+                <a href="tela_site.html" class="voltar">SAIR</a>
             </div>
         </form>
     </div>
     <script>
-        function Voltar(){
-            window.close('tela2_Cadastro.html');
-            window.open('tela1_Site.html');
-        }
     </script>
 </body>
 </html>
