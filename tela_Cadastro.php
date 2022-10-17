@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="StyleSheet" href="estilo_cadastro_login.css">
+    <link rel="StyleSheet" href="estilo_cadastro.css">
 </head>
 <body>
     <div class="container">
@@ -44,7 +44,7 @@
            
             <label for="imagem"
         style="position: relative;
-             left: 1rem;
+             left: 2rem;
              margin-top: 2rem; 
              padding: 10px 10px; 
              width: 17rem; 

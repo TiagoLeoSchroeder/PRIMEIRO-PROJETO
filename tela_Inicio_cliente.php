@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME</title>
-    <link rel="StyleSheet" href="estilo_Inicio.css">
+    <link rel="StyleSheet" href="estilo_inicio_admin.css">
 </head>
 <body>
     <header class="cima">
@@ -15,7 +15,7 @@
         </div>
             </div>
         <div class="dropdown" id="esconder">
-            <button><img src="chad.jpg" id="perfil" style="position: relative; right: 1.25rem; bottom: 0.6rem;"></button>
+            <button><img src="chad.jpg" id="perfil"></button>
             <div>
                 <a href="tela_Perfil.html">PERFIL</a>
                 <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
