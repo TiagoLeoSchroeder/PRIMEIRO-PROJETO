@@ -34,7 +34,7 @@
                 <h3>TREINOS DE MUSCULAÇÃO</h3>
                 <p>TREINOS PERSONALIZADOS PARA VOCÊ FAZER NA CONFORTO DA SUA CASA.</p>
                 <br><br>
-                <a href="tela11_musculacao.html">Mais informações</a>
+                <a href="tela_musculacao_cliente.html">Mais informações</a>
             </div>
         </div> 
         <div class="card">
@@ -44,7 +44,7 @@
                 <h3>SOBRE O SITE</h3>
                 <p>SOBRE O NOSSO SITE DE ATIVIDADES FÍSICAS</p>
                 <br>
-                <a href="tela10_Informacao.html">Mais informações</a>
+                <a href="tela_Informacao.html">Mais informações</a>
             </div>
         </div> 
         <div class="card">
@@ -54,7 +54,7 @@
                 <h3>SUPORTE AO CLIENTE</h3>
                 <p>CASO QUEIRA MANDAR ALGUM E-MAIL</p>
                 <br> <br>
-                <a href="tela5_Contato.html">Mais informações</a>
+                <a href="tela_Contato.html">Mais informações</a>
             </div>
         </div> 
     </div>
