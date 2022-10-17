@@ -93,7 +93,6 @@ p
 {
     position: relative;
     right: 5rem;
-    bottom: 2rem;
     width: 10rem;
     height: 10rem;
     padding: 8px 18px;
@@ -114,8 +113,6 @@ p
 
 .dropdown div
 {
-    position: relative;
-    top: 10rem;
     background-color: #fff;
     box-shadow: 1px 2px 20px #fff, 2px 6px 50px #fff;
     z-index: 1;
