@@ -20,6 +20,6 @@
         
     </table>
    
-    <div class="voltar"><p><a href="tela_inicio_adm.php">VOLTAR</p></a></div>
+    <div class="voltar"><p><a href="tela_inicio_admin.php">VOLTAR</p></a></div>
 </body>
 </html>

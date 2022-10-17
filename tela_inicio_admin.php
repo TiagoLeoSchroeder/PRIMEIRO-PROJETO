@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME</title>
-    <link rel="StyleSheet" href="estilo_Inicio_admin.css">
+    <link rel="StyleSheet" href="estilo_inicio_admin.css">
 </head>
 <body>
     <header class="cima">
@@ -25,7 +25,6 @@
             <div>
                 <a href="tela_Perfil_Admin.html">Perfil</a>
                 <a href="tela_Configuracoes_admin.html">Configurações</a>
-                <a href="tela_Admin.php">Lista do Admin</a>
                 <a href="tela_site.html">Sair</a>
             </div>
         </div>
@@ -35,32 +34,32 @@
     <div class="container">
         <div class="card">
             <div class="content">
-                <br><br><br><br>
-                <h2>01</h2>
-                <h3>TREINOS DE MUSCULAÇÃO</h3>
-                <p>TREINOS PERSONALIZADOS PARA VOCÊ FAZER NA CONFORTO DA SUA CASA.</p>
+                <br><br><br><br><br><br><br>
+                <h2>##</h2>
+                <h3>NADA</h3>
+                <p>EM BREVE COM NOVIDADES...</p>
                 <br><br>
-                <a href="tela4.1 - Treinos.html">Mais informações</a>
+                <a href="##">Mais informações</a>
             </div>
         </div> 
         <div class="card">
             <div class="content">
                 <br><br><br><br><br><br><br><br>
-                <h2>02</h2>
-                <h3>SOBRE O SITE</h3>
-                <p>SOBRE O NOSSO SITE DE ATIVIDADES FÍSICAS</p>
+                <h2>##</h2>
+                <h3>NADA</h3>
+                <p>EM BREVE COM NOVIDADES...</p>
                 <br>
-                <a href="tela10_Informacao.html">Mais informações</a>
+                <a href="##">Mais informações</a>
             </div>
         </div> 
         <div class="card">
             <div class="content">
                 <br><br><br><br><br>
-                <h2>03</h2>
-                <h3>SUPORTE AO CLIENTE</h3>
-                <p>CASO QUEIRA MANDAR ALGUM E-MAIL</p>
+                <h2>01</h2>
+                <h3>TELA ADMIN</h3>
+                <p>LISTAR USUARIOS CADASTRADOS E CONECTADOS</p>
                 <br> <br>
-                <a href="tela5_Contato.html">Mais informações</a>
+                <a href="tela_Admin.php">Mais informações</a>
             </div>
         </div> 
     </div>
