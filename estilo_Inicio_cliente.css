@@ -79,6 +79,8 @@ p
 }
 
 .dropdown{
+    position: relative;
+    bottom: 5rem;
     width: 70px;
     height: 10rem;
     display: inline-block;
@@ -91,6 +93,8 @@ p
 
 .dropdown button
 {
+    position: relative;
+    bottom: 2rem;
     position: relative;
     right: 5rem;
     width: 10rem;
@@ -113,6 +117,7 @@ p
 
 .dropdown div
 {
+   
     background-color: #fff;
     box-shadow: 1px 2px 20px #fff, 2px 6px 50px #fff;
     z-index: 1;
@@ -151,8 +156,8 @@ p
 #perfil
 {
     position: relative;
-    bottom: 10rem;
-    right: 10rem;
+    bottom: 0.6rem;
+    right: 1.3rem;
     width: 10rem;
     height: 10rem;
     border-radius: 10rem;
