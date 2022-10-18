@@ -22,7 +22,7 @@
     <h1 class="text-1">Tabela de usuários cadastrados</h1>
     <table class="table table-dark table-striped table-hover">
         <tr>
-            <th scope="col">ID_Number</th>
+            <th scope="col">ID_User</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
             <th scope="col">Password</th>

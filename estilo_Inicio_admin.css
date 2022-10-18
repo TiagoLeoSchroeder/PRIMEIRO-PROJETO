@@ -66,6 +66,8 @@ p
 .dropdown button:hover
 {
     background-color: #fff;
+    transform: rotate(360deg);
+    transition: 1s;
 }
 
 .dropdown div
