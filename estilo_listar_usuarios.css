@@ -5,7 +5,7 @@
 }
 body
 {
-    background-image: url('poligonos_cinza.jpg');
+    background-image: url('poligonos_preto_e_roxo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,12 +13,41 @@ body
 table{
   position: relative;
   top: 3.5rem;
+}
+.text-1{
+  position: relative;
+  left: 28rem;
+  top: 2rem;
+  width: 40rem;
+  height: 5rem;
+  background-color: rgba(255,255,255,0.418);
   border-style: solid;
+  border-color: grey;
   border-radius: 3rem;
-  border-color: #999;
+  border-width: 1px;
+  text-align: center;
+  box-shadow: 3px 3px 10px grey;
+  text-shadow: 3px 5px 10px #000;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+th{
+  color: #fff;
+  text-shadow: 3px 3px 10px #000;
+  font-size: 1.1rem;
+  font-family: cursive;
+  font-style: italic;
 }
 td{
   color: #fff;
+  text-shadow: 3px 3px 10px #000;
+  font-size: 1.1rem;
+  font-family: cursive;
+  font-style: italic;
 }
 p
 {
@@ -44,7 +73,7 @@ h1{
 .voltar {
     position: relative;
     left: 38rem;
-    top: 25rem;
+    top: 10rem;
     width: 20rem;
     height: 3.8rem;
     font-size: 1rem;
@@ -56,7 +85,7 @@ h1{
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: black;
+    background-color: rgba(255,255,255,0.418);
     border-style: solid;
     border-width: 1px;
     border-radius: 8px;
@@ -74,10 +103,10 @@ h1{
     font-style: italic;
   }
   
-  .voltar:hover {outline: none; background: grey;}
+  .voltar:hover {outline: none; background: rgba(82, 79, 79, 0.418);}
   
   .voltar:active {
-    background-color: #999;
+    background-color: rgba(48, 46, 46, 0.418);
     box-shadow: 3px 5px #999;
     transform: translateY(4px);
   }

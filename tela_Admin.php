@@ -19,14 +19,15 @@
 </head>
 <body>
     <p>BEM-VINDO ADMINISTRADOR</p>
+    <h1 class="text-1">Tabela de usuários cadastrados</h1>
     <table class="table table-dark table-striped table-hover">
         <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Nome</th>
+            <th scope="col">ID_Number</th>
+            <th scope="col">Name</th>
             <th scope="col">Email</th>
-            <th scope="col">Senha</th>
-            <th scope="col">Genero</th>
-            <th scope="col">Biotipo</th>
+            <th scope="col">Password</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Biotype</th>
         </tr>
         <?php while($dado = $comando->fetch(PDO::FETCH_ASSOC)){ ?>
         <tr>
