@@ -5,8 +5,7 @@
     $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario FROM usuario");
 
     $comando->execute();
-
-
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
