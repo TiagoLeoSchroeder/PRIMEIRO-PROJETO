@@ -109,21 +109,20 @@ h1{
     font-style: italic;
   }
   
-  .voltar:hover {outline: none; background: rgba(82, 79, 79, 0.418); opacity: 1;}
+  .voltar:hover {outline: none; background: #5648b3; opacity: 1;}
   
   .voltar:active {
-    background-color: rgba(48, 46, 46, 0.418);
+    background-color: #6a5ac4;
     box-shadow: 3px 5px #999;
     transform: translateY(4px);
   }
 ::-webkit-scrollbar{
-  background-color: rgba(255,255,255,0.418);
-}
-::-webkit-scrollbar-track{
-  overflow: hidden;
-  background-color: rgba(255,255,255,0.418);
+  background-color: rgb(73, 73, 73);
+  border-style: solid;
+  border-color: rgb(51, 51, 51);
+  border-width: 1px;
 }
 ::-webkit-scrollbar-thumb{
   background-image: linear-gradient(#000000, #505050, #5648b3, #6a5ac4, #2e2490);
-  border-radius: 3.5px;
+  border-radius: 8px;
 }
