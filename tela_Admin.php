@@ -19,7 +19,7 @@
 </head>
 <body>
     <p>BEM-VINDO ADMINISTRADOR</p>
-    <h1 class="text-1">Tabela de usuários cadastrados</h1>
+    <h1 class="text1">Tabela de usuários cadastrados</h1>
     <table class="table table-dark table-striped table-hover">
         <tr>
             <th scope="col">ID_User</th>
@@ -39,6 +39,19 @@
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
         </tr>
         <?php } ?>
+        <br>
+    </table>
+    <br><br><br>
+    <h1 class="text1">Tabela de Treinos registrados por clientes.</h1>
+    <br>
+    <table class="table table-dark table-striped table-hover">
+        <tr>
+            <th scope="col">User</th>
+            <th scope="col">Name</th>
+            <th scope="col">Difficult</th>
+            <th scope="col">Equipment</th>
+            <th scope="col">Muscle</th>
+        </tr>
     </table>
     <div class="voltar"><h1><a href="tela_inicio_admin.php">VOLTAR</h1></a></div>
 </body>

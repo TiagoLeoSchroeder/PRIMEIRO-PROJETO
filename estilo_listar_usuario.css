@@ -14,11 +14,11 @@ table{
   position: relative;
   top: 3.5rem;
 }
-.text-1{
+.text1{
   position: relative;
   left: 28rem;
   top: 2rem;
-  width: 40rem;
+  width: 45rem;
   height: 5rem;
   background-color: rgba(255,255,255,0.418);
   border-style: solid;
