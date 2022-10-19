@@ -163,14 +163,14 @@ p
     position: absolute;
     top: -30px;
     right: 30px;
-    font-size: 6rem;
+    font-size: 7rem;
     color: rgba(255,255,255,0.4);
     pointer-events: none;
     text-align: center;
 }
 .container .card .content h3
 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #fff;
     z-index: 1;
 }
