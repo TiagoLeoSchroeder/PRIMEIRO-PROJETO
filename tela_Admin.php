@@ -42,7 +42,7 @@
         <br>
     </table>
     <br><br><br>
-    <h1 class="text1">Tabela de Treinos registrados por clientes.</h1>
+    <h1 class="text1">Tabela de Treinos registrados por clientes</h1>
     <br>
     <table class="table table-dark table-striped table-hover">
         <tr>
