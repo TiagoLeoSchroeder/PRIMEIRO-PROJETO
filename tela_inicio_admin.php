@@ -44,10 +44,10 @@
         </div> 
         <div class="card">
             <div class="content">
-                <br><br><br><br><br><br><br><br>
-                <h2>##</h2>
-                <h3>NADA</h3>
-                <p>EM BREVE COM NOVIDADES...</p>
+                <br><br><br><br><br><br>
+                <h2>01</h2>
+                <h3>CADASTRO DE TREINOS</h3>
+                <p>ADICIONAR NOVOS TREINOS PARA USUÁRIOS</p>
                 <br>
                 <a href="##">Mais informações</a>
             </div>
@@ -55,7 +55,7 @@
         <div class="card">
             <div class="content">
                 <br><br><br><br><br>
-                <h2>01</h2>
+                <h2>02</h2>
                 <h3>TELA ADMIN</h3>
                 <p>LISTAR USUARIOS CADASTRADOS E CONECTADOS</p>
                 <br> <br>
