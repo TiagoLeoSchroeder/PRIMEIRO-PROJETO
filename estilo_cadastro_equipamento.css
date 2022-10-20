@@ -1,0 +1,11 @@
+body{
+    background-image: url('fundo4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    position: relative;
+    left: 30%;
+    color: #fff;
+    font-size: 2rem;
+}

@@ -58,8 +58,8 @@ h5
     bottom: 10rem;
 }
 .btn {
-    position: absolute;
-    top: 10rem;
+    position: relative;
+    bottom: 10rem;
     box-sizing: border-box;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -77,7 +77,7 @@ h5
         -ms-flex-item-align: center;
             align-self: center;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 1;
     margin: 20px;
     padding: 1.2em 2.8em;
@@ -88,6 +88,8 @@ h5
     font-weight: 700;
 }
 .botao {
+    position: relative;
+    bottom: 40rem;
     border-color: white;
     color: grey;
     box-shadow: 0 0 40px 40px white inset, 0 0 0 0 #000;
@@ -96,7 +98,6 @@ h5
 }
 .botao:hover {
     box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px white;
-    color: #fff;
 }
 a
 {
@@ -156,5 +157,5 @@ a
     color: grey;
 }
 ::-webkit-scrollbar {
-    display: block;
+    display: none;
   }

@@ -123,6 +123,6 @@ h1{
   border-width: 1px;
 }
 ::-webkit-scrollbar-thumb{
-  background-image: linear-gradient(#000000, #505050, #5648b3, #6a5ac4, #2e2490);
+  background-image: linear-gradient(#000000, #a1a3a6, #e3e5e8, #6a5ac4, #2e2490);
   border-radius: 8px;
 }

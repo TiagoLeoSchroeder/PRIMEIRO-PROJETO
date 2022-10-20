@@ -35,17 +35,17 @@
         <div class="card">
             <div class="content">
                 <br><br><br><br><br><br><br>
-                <h2>##</h2>
-                <h3>NADA</h3>
-                <p>EM BREVE COM NOVIDADES...</p>
+                <h2>01</h2>
+                <h3>EQUIPAMENTO</h3>
+                <p>CADASTRAR EQUIPAMENTOS NÃO REGISTRADOS</p>
                 <br><br>
-                <a href="##">Mais informações</a>
+                <a href="tela_cadastro_equipamento.php">Mais informações</a>
             </div>
         </div> 
         <div class="card">
             <div class="content">
                 <br><br><br><br><br><br>
-                <h2>01</h2>
+                <h2>02</h2>
                 <h3>CADASTRO DE TREINOS</h3>
                 <p>ADICIONAR NOVOS TREINOS PARA USUÁRIOS</p>
                 <br>
@@ -55,7 +55,7 @@
         <div class="card">
             <div class="content">
                 <br><br><br><br><br>
-                <h2>02</h2>
+                <h2>03</h2>
                 <h3>TELA ADMIN</h3>
                 <p>LISTAR USUARIOS CADASTRADOS E CONECTADOS</p>
                 <br> <br>
@@ -63,7 +63,7 @@
             </div>
         </div> 
     </div>
-   
+
     <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"), {

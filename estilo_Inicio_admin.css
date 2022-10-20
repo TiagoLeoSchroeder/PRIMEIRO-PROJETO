@@ -163,7 +163,7 @@ p
     position: absolute;
     top: -30px;
     right: 30px;
-    font-size: 7rem;
+    font-size: 50px;
     color: rgba(255,255,255,0.4);
     pointer-events: none;
     text-align: center;
@@ -195,6 +195,7 @@ p
     border-radius: 20px;
     font-weight: 500;
     box-shadow: 1px 2px 20px #fff, 1px 2px 25px rgb(255, 255, 255);
+    transition: 360ms;
 }
 ::-webkit-scrollbar{
     display: none;
