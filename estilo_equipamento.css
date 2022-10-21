@@ -3,32 +3,89 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-h1{
+.textocima{
     position: relative;
-    left: 30%;
+    left: 23%;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 form{
+    position: relative;
+    left: 25%;
+    top: 0.5rem;
     width: 40rem;
     height: 40rem;
-    background-color: rgba(255,255,255,0.418);
+    background-color: rgba(255,255,255,0.150);
+    box-shadow: 3px 5px 10px #000;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 4rem 0;
 }
 form input[type="text"]{
     position: relative;
+    top: 1rem;
     left: 10rem;
     width: 20rem;
     height: 2rem;
+    border-style: solid;
+    border-color: darkgray;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: #000;
+    transition: 0.4s;
+    box-shadow: 2px 5px 10px #000;
 }
-form input[type="textarea"]{
+input[type="text"]::placeholder{
     position: relative;
+    left: 1rem;
+    color: #000;
+}
+
+form textarea{
+    position: relative;
+    left: 4rem;
+    top: 3rem;
+    width: 30rem;
+    height: 23rem;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #999;
+    box-shadow: 1px 3px 4px #000;
+}
+textarea:hover{
+    
+}
+textarea::placeholder{
+    position: relative;
+    color: #000;
+}
+input[type="submit"]{
+    position: relative;
+    top: 5rem;
     left: 10rem;
-    width: 10rem;
-    height: 30rem;
-    background-color: grey;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2.6rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: darkgray;
+    box-shadow: 2px 5px 4px #fff;
+    font-style: italic;
+    text-shadow: 3px 2px 5px #fff;
+    background-image: linear-gradient(to right, grey, darkgray, orange, orangered);
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(128, 172, 62);
+    border-color: rgb(128, 172, 62);
     color: #fff;
+    box-shadow: 3px 2px 10px #fff;
+}
+input[type="submit"]::placeholder{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    top: 2px;
 }
 ::-webkit-scrollbar{
     display: none;
