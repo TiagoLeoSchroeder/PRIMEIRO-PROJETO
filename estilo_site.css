@@ -59,7 +59,7 @@ h5
 }
 .btn {
     position: relative;
-    bottom: 10rem;
+    bottom: 40rem;
     box-sizing: border-box;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -89,7 +89,7 @@ h5
 }
 .botao {
     position: relative;
-    bottom: 40rem;
+    bottom: 60rem;
     border-color: white;
     color: grey;
     box-shadow: 0 0 40px 40px white inset, 0 0 0 0 #000;
