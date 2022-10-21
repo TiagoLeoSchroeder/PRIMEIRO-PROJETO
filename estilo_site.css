@@ -1,13 +1,8 @@
 body
 {
-    position: relative;
-    right: 1.5%;
-    width: 80%;
-    margin-left: 7%;
     background-image: url('academia.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 50%;
 }
 .container{
     position: relative;
@@ -57,9 +52,9 @@ h5
     position: relative;
     bottom: 10rem;
 }
-.um .btn {
+.btn {
     position: relative;
-    bottom: 40rem;
+    bottom: 50rem;
     box-sizing: border-box;
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -87,9 +82,9 @@ h5
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.um .btn .botao {
+.botao {
     position: relative;
-    bottom: 60rem;
+    bottom: 50rem;
     border-color: white;
     color: grey;
     box-shadow: 0 0 40px 40px white inset, 0 0 0 0 #000;
