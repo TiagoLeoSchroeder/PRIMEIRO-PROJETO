@@ -57,7 +57,7 @@ h5
     position: relative;
     bottom: 10rem;
 }
-.btn {
+.um .btn {
     position: relative;
     bottom: 40rem;
     box-sizing: border-box;
@@ -87,7 +87,7 @@ h5
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.botao {
+.um .btn .botao {
     position: relative;
     bottom: 60rem;
     border-color: white;
