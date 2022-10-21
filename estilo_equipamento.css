@@ -20,3 +20,16 @@ form input[type="text"]{
     width: 20rem;
     height: 2rem;
 }
+form input[type="textarea"]{
+    position: relative;
+    left: 10rem;
+    width: 10rem;
+    height: 30rem;
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
