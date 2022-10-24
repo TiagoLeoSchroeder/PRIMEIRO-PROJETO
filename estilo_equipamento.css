@@ -73,7 +73,7 @@ input[type="submit"]{
     box-shadow: 2px 5px 4px #fff;
     font-style: italic;
     text-shadow: 3px 2px 5px #fff;
-    background-image: linear-gradient(to right, grey, darkgray, orange, orangered);
+    background-color: rgba(255,255,255,0.4);
     cursor: pointer;
     transition: 0.5s;
 }
