@@ -1,7 +1,3 @@
-<?php 
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +18,7 @@
         <textarea name="descricao" placeholder="Descrição: "></textarea>
         <br>
         <input type="submit" value="enviar">
+        <a href="tela_inicio_admin.php">Voltar</a>
 </form>
 </body>
 </html>

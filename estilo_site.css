@@ -3,6 +3,7 @@ body
     background-image: url('academia.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .container{
     position: relative;
@@ -42,13 +43,11 @@ body
 }
 h2
 {
-    text-align: center;
     position: relative;
     bottom: 10rem;
 }
 h5
 {
-    text-align: center;
     position: relative;
     bottom: 10rem;
 }
