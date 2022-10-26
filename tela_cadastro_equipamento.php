@@ -15,10 +15,10 @@
         <input type="text" name="Nome" placeholder="Nome do Equipamento: ">
         <br>
         <label for="descricao"></label>
-        <textarea name="descricao" placeholder="Descrição: "></textarea>
+        <textarea name="descricao" placeholder="Descrição: " style="height: 20rem;"></textarea>
         <br>
         <input type="submit" value="enviar">
-        <a href="tela_inicio_admin.php">Voltar</a>
 </form>
+<a href="tela_inicio_admin.php">Voltar</a>
 </body>
 </html>

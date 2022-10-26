@@ -56,7 +56,7 @@ form textarea{
     box-shadow: 1px 3px 4px #000;
 }
 textarea:hover{
-    
+    box-shadow: 3px 5px 10px #999;
 }
 textarea::placeholder{
     position: relative;
@@ -91,4 +91,23 @@ input[type="submit"]::placeholder{
 }
 ::-webkit-scrollbar{
     display: none;
+}
+a{
+    position: relative;
+    top: 5rem;
+    left: 20rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: rgba(255,255,255,0.4);
+    border-style: solid;
+    border-color: rgba(255,255,255,0.4);
+    text-shadow: 3px 5px 10px #fff;
+    box-shadow: 3px 2px 1px #000;
+    border-radius: 5px;
+    border-width: 1px;
+    transition: 0.4s;
+}
+a:hover{
+    background-color: rgba(255,255,255,100);
+
 }
