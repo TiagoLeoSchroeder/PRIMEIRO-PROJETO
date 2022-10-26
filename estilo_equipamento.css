@@ -67,7 +67,7 @@ input[type="submit"]{
     top: 5rem;
     left: 10rem;
     width: 20rem;
-    height: 4rem;
+    height: 10rem;
     font-size: 2.6rem;
     border-style: solid;
     border-radius: 5px;
@@ -92,22 +92,25 @@ input[type="submit"]::placeholder{
 ::-webkit-scrollbar{
     display: none;
 }
-a{
+form a{
     position: relative;
-    top: 5rem;
+    top: 20rem;
     left: 20rem;
     width: 20rem;
     height: 4rem;
     background-color: rgba(255,255,255,0.4);
     border-style: solid;
     border-color: rgba(255,255,255,0.4);
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 3px 5px 10px #fff;
     box-shadow: 3px 2px 1px #000;
     border-radius: 5px;
     border-width: 1px;
     transition: 0.4s;
 }
-a:hover{
+form a:hover{
     background-color: rgba(255,255,255,100);
-
+    box-shadow: 3px 5px 10px #999;
 }

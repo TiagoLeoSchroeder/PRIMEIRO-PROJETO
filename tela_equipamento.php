@@ -18,7 +18,9 @@
         <textarea name="descricao" placeholder="Descrição: " style="height: 20rem;"></textarea>
         <br>
         <input type="submit" value="enviar">
+        <a class="voltar" href="tela_inicio_admin.php" style="position: relative">Voltar</a>
+        <input type="button">
 </form>
-<a href="tela_inicio_admin.php">Voltar</a>
+
 </body>
 </html>

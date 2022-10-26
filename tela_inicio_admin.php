@@ -39,7 +39,7 @@
                 <h3>EQUIPAMENTO</h3>
                 <p>CADASTRAR EQUIPAMENTOS NÃO REGISTRADOS</p>
                 <br><br>
-                <a href="tela_cadastro_equipamento.php">Mais informações</a>
+                <a href="tela_equipamento.php">Mais informações</a>
             </div>
         </div> 
         <div class="card">
