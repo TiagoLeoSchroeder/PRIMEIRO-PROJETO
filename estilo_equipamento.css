@@ -28,6 +28,7 @@ form input[type="text"]{
     left: 10rem;
     width: 20rem;
     height: 2rem;
+    box-decoration-break: none;
     border-style: solid;
     border-color: darkgray;
     border-radius: 5px;
@@ -47,7 +48,7 @@ form textarea{
     left: 4rem;
     top: 3rem;
     width: 30rem;
-    height: 15rem;
+    height: 20rem;
     font-size: 1.5rem;
     border-style: solid;
     border-radius: 5px;
@@ -70,8 +71,8 @@ input[type="submit"]{
     font-size: 2.6rem;
     border-style: solid;
     border-radius: 5px;
-    border-color: darkgray;
-    box-shadow: 2px 5px 4px #fff;
+    border-color: #000;
+    box-shadow: 2px 5px 4px #000;
     font-style: italic;
     text-shadow: 3px 2px 5px #fff;
     background-color: rgba(255,255,255,0.4);
