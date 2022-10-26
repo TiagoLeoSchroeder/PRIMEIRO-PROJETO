@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1 class="textocima">CADASTRO DE EQUIPAMENTOS</h1>
-    <form action="cadastrar_equipamento.php" method="post">
+    <form action="cadastrar_equipamento.php" method="POST">
         <h1></h1>
         <label for="Nome"></label>
         <input type="text" name="Nome" id="Nome" placeholder="Nome do Equipamento: ">
