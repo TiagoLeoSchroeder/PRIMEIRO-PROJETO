@@ -15,7 +15,7 @@ body{
 form{
     position: relative;
     left: 25%;
-    top: 0.5rem;
+    top: 0.1rem;
     width: 40rem;
     height: 41rem;
     background-color: rgba(255,255,255,0.150);
@@ -30,7 +30,7 @@ form input[type="text"]{
     left: 3.8rem;
     width: 30rem;
     height: 2rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: 'Courier New', Courier, monospace;
     box-decoration-break: none;
     border-style: solid;
@@ -45,8 +45,6 @@ input[type="text"]:hover{
     box-shadow: 2px 5px 10px #fff;
 }
 input[type="text"]::placeholder{
-    position: relative;
-    left: 1rem;
     color: #000;
 }
 
@@ -87,7 +85,7 @@ input[type="submit"]{
     text-shadow: 3px 2px 5px #fff;
     background-color: rgba(255,255,255,0.4);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 input[type="submit"]:hover{
     background-color: rgba(255,255,255,0.4);
@@ -121,7 +119,7 @@ button{
     box-shadow: 3px 5px 4px #000;
     border-radius: 5px;
     border-width: 1px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 button:hover{
     background-color: rgba(255,255,255,0.4);

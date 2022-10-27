@@ -12,7 +12,7 @@
     <form action="cadastrar_equipamento.php" method="POST">
         <h1></h1>
         <label for="Nome"></label>
-        <input type="text" name="Nome" id="Nome" placeholder="Nome do Equipamento: ">
+        <input type="text" name="nome" id="nome" placeholder="Nome do Equipamento: ">
         <br>
         <label for="descricao"></label>
         <textarea name="descricao" id="descricao" placeholder="Descrição: "></textarea>
@@ -24,7 +24,6 @@
     function Voltar(){
         window.open('tela_inicio_admin.php');
         window.close('tela_equipamento.php');
-       
     }
 </script>
 </body>

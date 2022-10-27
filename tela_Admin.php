@@ -1,9 +1,11 @@
 <?php 
-    
+    //IMPORTAR PHP QUE CONECTA O BANCO DE DADOS
     include("conexao.php");
 
+    // COMANDO SQL
     $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario FROM usuario");
 
+    // CÓDIGO PARA EXECUTAR O COMANDO ACIMA 
     $comando->execute();
     
 ?>
@@ -29,7 +31,10 @@
             <th scope="col">Gender</th>
             <th scope="col">Biotype</th>
         </tr>
-        <?php while($dado = $comando->fetch(PDO::FETCH_ASSOC)){ ?>
+        <?php while($dado = $comando->fetch(PDO::FETCH_ASSOC )){ 
+        /* While: Ele dirá ao PHP para executar as declarações aninhadas repetidamente. */
+        /* PDO::FETCH_ASSOC: retorna uma matriz indexada pelo nome da coluna conforme retornado em seu conjunto de resultados. */
+        ?>
         <tr>
             <td><?php echo $dado["pk_usuario"]; ?></td>
             <td><?php echo $dado["nome_usuario"]; ?></td>

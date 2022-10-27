@@ -21,6 +21,10 @@
                 <td><?php echo $linha['nome_usuario']?></td>
                 <td><?php echo $linha['email_usuario']?></td>
                 <td><?php echo $linha['is_adm_usuario']?></td>
+                <td><a href="excluir_usuario.php?codigo=<?php echo $linha['pk_usuario']?>">
+                <button type="submit" value="Excluir"></button>
+                </a>
+            </td>
             </tr>
     </tbody>
 </table>  

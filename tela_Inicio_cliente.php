@@ -11,7 +11,7 @@
 <body>
     <header class="cima">
        <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> 
-       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 25px; position: relative; top: 5rem; left: 1.25rem;" ><div class="content-4">
+       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 2rem; position: relative; top: 8rem; left: 1.25rem;" ><div class="content-4">
         </div>
             </div>
         <div class="dropdown" id="esconder">
