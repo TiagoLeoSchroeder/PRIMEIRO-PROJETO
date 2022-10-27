@@ -22,8 +22,9 @@
 </form>
 <script>
     function Voltar(){
-        window.close('tela_equipamento.php');
         window.open('tela_inicio_admin.php');
+        window.close('tela_equipamento.php');
+       
     }
 </script>
 </body>
