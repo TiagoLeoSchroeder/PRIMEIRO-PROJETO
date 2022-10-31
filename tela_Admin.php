@@ -1,5 +1,5 @@
 <?php 
-    //IMPORTAR PHP QUE CONECTA O BANCO DE DADOS
+    //IMPORTAR PHP QUE CONECTA COM O BANCO DE DADOS
     include("conexao.php");
 
     // COMANDO SQL
@@ -31,7 +31,7 @@
             <th scope="col">Gender</th>
             <th scope="col">Biotype</th>
         </tr>
-        <?php while($dado = $comando->fetch(PDO::FETCH_ASSOC )){ 
+        <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ 
         /* While: Ele dirá ao PHP para executar as declarações aninhadas repetidamente. */
         /* PDO::FETCH_ASSOC: retorna uma matriz indexada pelo nome da coluna conforme retornado em seu conjunto de resultados. */
         ?>
