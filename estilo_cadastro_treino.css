@@ -1,0 +1,108 @@
+body{
+    background-image: url('fundo4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+form{
+    margin-left: 20rem;
+    position: relative;
+    top: 1rem;
+    width: 50rem;
+    height: 47rem;
+    background-color: rgba(255,255,255,0.418);
+    border-style: solid;
+    border-radius: 20px 0;
+    box-shadow: 3px 5px 10px #000;
+    border-color: rgba(255,255,255,0.418);
+    border-width: 1px;
+}
+p{
+    width: 20rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    margin-left: 4rem;
+    text-shadow: 3px 2px 10px #000;
+    font-style: italic;
+    color: #fff;
+}
+form input[type="text"]{
+    width: 45rem;
+    height: 5rem;
+    background-color: rgba(83, 82, 82, 0.418);
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 2.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form input[type="text"]:hover{
+    background-color: rgba(167, 165, 165, 0.418);
+    box-shadow: 3px 5px 10px #fff;
+    color: #fff;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.25rem;
+    color: #000;
+    font-style: italic;
+}
+::placeholder:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.25rem;
+    color: #000;
+    font-style: italic;
+}
+form textarea{
+    width: 45rem;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.25rem;
+    background-color: gray;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form textarea:hover{
+    background-color: rgb(167, 164, 164);
+    box-shadow: 3px 5px 10px #fff;
+}
+form input[type="submit"]{
+    width: 20rem;
+    height: 5rem;
+    background-color: rgba(83, 82, 82, 0.418);
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 2.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form input[type="submit"]:hover {
+    background-color: rgba(168, 165, 165, 0.418);
+    color: #fff;
+    box-shadow: 3px 5px 10px #fff;
+    border-color: #fff;
+    font-style: italic;
+}
+form input[type="button"]{
+    width: 20rem;
+    height: 10rem;
+    background-color: rgba(168, 165, 165, 0.418);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(168, 165, 165, 0.418);
+    border-width: 1px;
+    font-size: 2.25rem;
+}
+form input[type="button"]:hover{
+    
+}

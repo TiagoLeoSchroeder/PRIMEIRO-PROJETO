@@ -23,8 +23,7 @@
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela_Admin.php">Tela do Admin</a>
-                <a href="tela_Configuracoes_admin.html">Configurações</a>
+                <a href="tela_Configuracoes_admin.html">Notificar clientes</a>
                 <a href="tela_site.html">Sair</a>
             </div>
         </div>
@@ -49,7 +48,7 @@
                 <h3>CADASTRO DE TREINOS</h3>
                 <p>ADICIONAR NOVOS TREINOS PARA USUÁRIOS</p>
                 <br>
-                <a href="##">Mais informações</a>
+                <a href="tela_cadastro_treinos.php">Mais informações</a>
             </div>
         </div> 
         <div class="card">

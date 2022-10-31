@@ -23,7 +23,12 @@
     <p>BEM-VINDO ADMINISTRADOR</p>
     <h1 class="text1">Tabela de usuários cadastrados</h1>
     <table class="table table-dark table-striped table-hover">
-        <tr>
+    <?php 
+        /* <tr>: um elemento <tr> vai conter um ou mais elementos. Ex: <td> <th>. */
+        /* <td>: tag que gera uma célula de dados que fica abaixo da tabela. */
+        /* <th>: gera uma célula de cabeçalho para a tabela */
+    ?>
+    <tr>
             <th scope="col">ID_User</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
@@ -34,6 +39,9 @@
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ 
         /* While: Ele dirá ao PHP para executar as declarações aninhadas repetidamente. */
         /* PDO::FETCH_ASSOC: retorna uma matriz indexada pelo nome da coluna conforme retornado em seu conjunto de resultados. */
+        /* <tr>: um elemento <tr> vai conter um ou mais elementos. Ex: <td> <th>. */
+        /* <td>: tag que gera uma célula de dados que fica abaixo da tabela. */
+        /* <th>: gera uma célula de cabeçalho para a tabela */
         ?>
         <tr>
             <td><?php echo $dado["pk_usuario"]; ?></td>
