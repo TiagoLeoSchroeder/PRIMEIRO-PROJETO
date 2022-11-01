@@ -16,13 +16,13 @@ form{
     position: relative;
     left: 25%;
     top: 0.1rem;
-    width: 40rem;
+    width: 60rem;
     height: 41rem;
     background-color: rgba(255,255,255,0.150);
     box-shadow: 3px 5px 10px #000;
     border-width: 0px;
     border-style: solid;
-    border-radius: 4rem 0;
+    border-radius: 4rem 0rem;
 }
 form input[type="text"]{
     position: relative;
@@ -36,7 +36,7 @@ form input[type="text"]{
     border-style: solid;
     border-color: darkgray;
     border-radius: 5px;
-    background-color: darkgray;
+    background-color: rgba(75, 70, 70, 0.267);
     color: #000;
     transition: 0.4s;
     box-shadow: 2px 5px 10px #000;
@@ -58,7 +58,7 @@ form textarea{
     font-size: 1.5rem;
     border-style: solid;
     border-radius: 5px;
-    background-color: #999;
+    background-color: rgba(78, 74, 74, 0.329);
     box-shadow: 1px 3px 4px #000;
     transition: 0.3s;
 }
@@ -83,7 +83,7 @@ input[type="submit"]{
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 3px 2px 5px #fff;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(77, 73, 73, 0.288);
     cursor: pointer;
     transition: 0.2s;
 }

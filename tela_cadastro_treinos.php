@@ -13,7 +13,7 @@
 
     <form action="cadastrar_treino.php" method="post">
     <p>CADASTRAR TREINOS🏋🏽</p>
-        <input type="text" placeholder="Nome do Treino" name="nome" id="nome">
+        <input type="text" placeholder="Nome do Treino:" name="nome" id="nome">
         <br>
         <textarea placeholder="Descrição" name="descricao" id="descricao"></textarea>
         <br>

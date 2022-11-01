@@ -45,7 +45,7 @@ form input[type="text"]{
     font-size: 1.5rem;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
     box-shadow: 3px 5px 10px #000;
     transition: 0.4s;
 }
