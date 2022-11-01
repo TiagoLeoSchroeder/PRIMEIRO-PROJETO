@@ -20,7 +20,7 @@
     <title>ADMINISTRADOR</title>
 </head>
 <body>
-    <p>BEM-VINDO ADMINISTRADOR</p>
+    <p>BEM-VINDO, ADMINISTRADOR</p>
     <h1 class="text1">Tabela de usuários cadastrados</h1>
     <table class="table table-dark table-striped table-hover">
     <?php 
@@ -35,6 +35,8 @@
             <th scope="col">Password</th>
             <th scope="col">Gender</th>
             <th scope="col">Biotype</th>
+            <th scope="col">Edit Usuário</th>
+            <th scope="col">Del Usuário</th>
         </tr>
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ 
         /* While: Ele dirá ao PHP para executar as declarações aninhadas repetidamente. */
@@ -50,6 +52,14 @@
             <td><?php echo $dado["senha_usuario"]; ?></td>
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
+            <td> <a href="editar_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Editar">
+                </a>
+            </td>
+            <td> <a href="excluir_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Excluir">
+                </a>
+            </td>
         </tr>
         <?php } ?>
         <br>
@@ -64,6 +74,23 @@
             <th scope="col">Difficult</th>
             <th scope="col">Equipment</th>
             <th scope="col">Muscle</th>
+            <th scope="col">Edit Treino</th>
+            <th scope="col">Del Treino</th>
+        </tr>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><a href="editar_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Editar">
+                </a>
+            </td>
+            <td><a href="excluir_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Excluir">
+                </a>
+            </td>
         </tr>
     </table>
     <div class="voltar"><h1><a href="tela_inicio_admin.php">VOLTAR</h1></a></div>

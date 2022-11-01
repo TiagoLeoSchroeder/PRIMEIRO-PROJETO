@@ -1,20 +1,20 @@
-<?php
-// include: ele inclui e avalia o arquivo informado. //
-    include('conexao.php');
+<?php 
+
+include('conexao.php');
 //------------------------------------------//
-    $nome = $_POST['nome'];
+$nome = $_POST["nome"];
 //------------------------------------------//
-    $descricao = $_POST['descricao'];
+$descricao = $_POST["descricao"];
 //------------------------------------------//
-    $comando = $pdo->prepare("INSERT INTO treinos(nome_treino, descricao_treino) VALUES(:nome,:descricao)");
+$comando = $pdo->prepare("INSERT INTO equipamento(nome_treino,descricao_treino) VALUES(:nome,:descricao)");
 //------------------------------------------//
-    $comando->bindValue(":nome",$nome);
-    $comando->bindValue(":descricao",$descricao);
+$comando->bindValue(":nome",$nome);
+$comando->bindValue(":descricao",$descricao);
 //------------------------------------------//
-    $comando->execute();
+$comando->execute();
 //------------------------------------------//
-    header("Location:tela_cadastro_treinos.php");
+header("Location:tela_cadastro_treinos.php");
 //------------------------------------------//
-    unset($comando);
-    unset($pdo);
+unset($comando);
+unset($pdo);
 ?>

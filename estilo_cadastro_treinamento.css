@@ -9,12 +9,21 @@ form{
     top: 1rem;
     width: 50rem;
     height: 47rem;
-    background-color: rgba(255,255,255,0.418);
+    background-image: linear-gradient(to right, #2c2c2e,#58514da1,#80808049);
     border-style: solid;
     border-radius: 20px 0px;
     border-color: #000;
     box-shadow: 3px 5px 10px #000;
     border-width: 1px;
+    animation: degrade-animado 5s infinite ease;
+}
+@keyframes degrade-animado{
+   0% {
+    background-position-x: 0%;
+   }
+   100%{
+    background-position-x: 100%;    
+   }
 }
 p{
     width: 20rem;
@@ -28,12 +37,13 @@ p{
 form input[type="text"]{
     width: 45rem;
     height: 5rem;
-    background-color: rgba(83, 82, 82, 0.418);
+    background-color: rgba(83, 82, 82, 0.281);
     border-style: solid;
     border-radius: 10px;
     margin-left: 3rem;
     margin-top: 1rem;
     font-size: 1.5rem;
+    color: #fff;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     box-shadow: 3px 5px 10px #000;
@@ -64,7 +74,8 @@ form textarea{
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
-    background-color: gray;
+    color: #fff;
+    background-color: rgba(83, 82, 82, 0.288);
     box-shadow: 3px 5px 10px #000;
     transition: 0.4s;
 }
