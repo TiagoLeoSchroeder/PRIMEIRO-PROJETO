@@ -10,6 +10,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+table{
+    position: relative;
+    top: 2rem;
+}
 .container{
     position: relative;
     right: 2rem;
@@ -18,11 +22,6 @@ body{
     background-color: rgba(255,255,255,0.3);
     border-radius: 0 0 10px 10px;
     box-shadow: 2px 1px 10px #fff;
-}
-.container-2 .content-2{
-    position: relative;
-    left: 21.8rem;
-    top: 6rem;
 }
 .paragraph{
     position: relative;
@@ -33,31 +32,29 @@ body{
     text-shadow: -0.5rem 3px 5px #000;
     text-align: center;
 }
-.btn 
-{
+input[type="button"].Voltar{
     position: relative;
-    width: 42.30rem;
-    top: 1rem;
-    left: 1rem;
-    margin-left: 2rem;
-    margin-top: 5rem;
-    display: inline-block;
+    top: 5rem;
+    left: 35rem;
+    height: 6rem;
+    width: 25rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(31, 30, 30, 0.89);
+    border-style: solid;
+    border-radius: 5rem;
+    border-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.3s;
 }
-.btn a{
-    font-size: 2.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+input[type="button"].Voltar:hover{
+    background-color: rgba(180, 179, 179, 0.486);
+    border-color: rgba(250, 250, 250, 0.767);
     color: #fff;
 }
-.btn:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #678;
-    transform: translateY(4px);
-}
-.container-3{
-    position: relative;
-    left: 22rem;
-    top: 10rem;
+input[type="button"].Voltar:active{
+    transform: translateY(15px);
 }
 ::-webkit-scrollbar{
     display: none;

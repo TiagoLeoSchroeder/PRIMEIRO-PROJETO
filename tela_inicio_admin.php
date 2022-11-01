@@ -23,7 +23,7 @@
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela_Configuracoes_admin.html">Notificar clientes</a>
+                <a href="tela_Configuracoes_admin.php">Notificar clientes</a>
                 <a href="tela_site.html">Sair</a>
             </div>
         </div>
