@@ -51,7 +51,7 @@
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
             <td> <a href="notificar_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
-                <input type="button" class="btn btn-outline-secondary" style="width: 10rem; margin: auto;" value="Notificar">
+                <input type="button" class="btn btn-outline-secondary" style="width: 10rem; margin: auto;" value="Notificar Usuário">
                 </a>
             </td>
         </tr>

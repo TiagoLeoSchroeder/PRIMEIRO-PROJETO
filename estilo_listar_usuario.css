@@ -13,12 +13,14 @@ body
 table{
   position: relative;
   top: 3.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 .text1{
   position: relative;
-  left: 25rem;
+  left: 15rem;
   top: 2rem;
-  width: 50rem;
+  width: 70rem;
   height: 5rem;
   background-color: rgba(255,255,255,0.418);
   border-style: solid;
@@ -29,7 +31,8 @@ table{
   box-shadow: 3px 3px 10px grey;
   text-shadow: 3px 5px 10px #000;
   color: #fff;
-  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-size: 2.7rem;
   display: flex;
@@ -45,15 +48,11 @@ th{
   color: #fff;
   text-shadow: 3px 3px 10px #000;
   font-size: 1.1rem;
-  font-style: italic; 
-  text-align: center;
 }
 td{
   color: #fff;
   text-shadow: 3px 3px 10px #000;
   font-size: 1.1rem;
-  font-style: italic;
-  text-align: center;
 }
 p
 {
@@ -66,20 +65,21 @@ p
     color: white;
     text-align: center;
     font-size: 5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     font-style: italic;
     text-shadow: 3px 5px 10px #000;
     border-radius: 20px 0;
     box-shadow: 3px 5px 10px #999; 
 }
 h1{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
 }
 .voltar {
     position: relative;
     left: 38rem;
-    top: 11rem;
+    top: 9rem;
+    margin-bottom: 1rem;
     width: 20rem;
     height: 3.8rem;
     font-size: 1rem;
