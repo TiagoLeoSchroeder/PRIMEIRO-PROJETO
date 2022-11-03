@@ -61,7 +61,7 @@
     <input type="button" class="Voltar" value="Voltar" onclick="Voltar()">
     <script>
         function Voltar(){
-            window.close('tela_Configuracoes.php');
+            window.close('tela_Configuracoes_admin.php');
             window.open('tela_inicio_admin.php');
         }
     </script>

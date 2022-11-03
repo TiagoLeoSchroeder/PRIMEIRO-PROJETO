@@ -16,7 +16,7 @@ form{
     position: relative;
     left: 25%;
     top: 0.1rem;
-    width: 60rem;
+    width: 40rem;
     height: 41rem;
     background-color: rgba(255,255,255,0.150);
     box-shadow: 3px 5px 10px #000;
@@ -37,7 +37,7 @@ form input[type="text"]{
     border-color: darkgray;
     border-radius: 5px;
     background-color: rgba(75, 70, 70, 0.267);
-    color: #000;
+    color: #fff;
     transition: 0.4s;
     box-shadow: 2px 5px 10px #000;
 }
@@ -45,7 +45,7 @@ input[type="text"]:hover{
     box-shadow: 2px 5px 10px #fff;
 }
 input[type="text"]::placeholder{
-    color: #000;
+    color: #fff;
 }
 
 form textarea{
@@ -56,6 +56,7 @@ form textarea{
     height: 20rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
+    color: #fff;
     border-style: solid;
     border-radius: 5px;
     background-color: rgba(78, 74, 74, 0.329);
@@ -67,7 +68,7 @@ textarea:hover{
 }
 textarea::placeholder{
     position: relative;
-    color: #000;
+    color: #fff;
 }
 input[type="submit"]{
     position: relative;
@@ -106,7 +107,7 @@ button{
     left: 4rem;
     width: 30.3rem;
     height: 4rem;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(77, 73, 73, 0.288);
     border-style: solid;
     border-color: #000;
     text-align: center;
