@@ -21,7 +21,7 @@
        <br>
        <p>BEM-VINDO ADMINISTRADOR</p>
         <div class="dropdown" id="esconder">
-            <button><img src="chad.jpg" id="perfil"></button>
+            <button><img src="adm.png" id="perfil"></button>
             <div>
                 <a href="tela_Configuracoes_admin.php">Notificar clientes</a>
                 <a href="tela_site.html">Sair</a>
