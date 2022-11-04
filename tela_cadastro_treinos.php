@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo_cadastro_treinamento.css">
+    <link rel="stylesheet" href="estilo_treinamento.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tela Cadastro de Treinos</title>
 </head>
@@ -30,7 +30,7 @@
         <input type="submit">
         <input type="button" value="Voltar" onclick="Voltar()">
     </form>
-    <table class="table table-dark table-striped table-hover">
+    <table class="table table-dark table-striped table-hover w-50 p-3">
     <tr>
             <th scope="col">Código do treino</th>
             <th scope="col">Nome do Treino</th>

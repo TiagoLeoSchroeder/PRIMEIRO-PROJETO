@@ -4,11 +4,11 @@ body{
     background-attachment: fixed;
 }
 form{
-    margin-left: 20rem;
+    margin-left: 1rem;
     position: relative;
     top: 0.4rem;
-    width: 50rem;
-    height: 47rem;
+    width: 45rem;
+    height: 46rem;
     background-image: linear-gradient(to right, #2c2c2e,#58514da1,#80808049);
     border-style: solid;
     border-radius: 20px 0px;
@@ -18,11 +18,15 @@ form{
 }
 table
 {
-    width: 10rem;
     position: relative;
-    top: 3.5rem;
+    bottom: 46rem;
+    left: 48rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    border-color: rgb(77, 75, 75.0.410);
+    border-width: 1.5px;
+    border-color: #fff;
+    box-shadow: -1px -1px 10px #fff;
 }
 p{
     width: 20rem;
@@ -34,7 +38,7 @@ p{
     color: #fff;
 }
 form input[type="text"]{
-    width: 45rem;
+    width: 40rem;
     height: 5rem;
     background-color: rgba(83, 82, 82, 0.281);
     border-style: solid;
@@ -66,7 +70,7 @@ form input[type="text"]:hover{
     font-style: italic;
 }
 form textarea{
-    width: 45rem;
+    width: 40rem;
     height: 15rem;
     margin-top: 4rem;
     margin-left: 3rem;
@@ -83,12 +87,12 @@ form textarea:hover{
     box-shadow: 3px 5px 10px #fff;
 }
 form input[type="submit"]{
-    width: 20rem;
+    width: 15rem;
     height: 5rem;
     background-color: rgba(83, 82, 82, 0.418);
     border-style: solid;
     border-radius: 10px;
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-top: 2rem;
     font-size: 2.25rem;
     font-family: 'Courier New', Courier, monospace;
@@ -104,7 +108,7 @@ form input[type="submit"]:hover {
 }
 form input[type="button"]{
     position: relative;
-    width: 20rem;
+    width: 15rem;
     height: 5rem;
     margin-left: 4.5rem;
     background-color: rgba(83, 82, 82, 0.418);
@@ -123,4 +127,7 @@ form input[type="button"]:hover{
     color: #fff;
     box-shadow: 3px 5px 10px #fff;
     border-color: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
 }

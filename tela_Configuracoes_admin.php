@@ -26,7 +26,7 @@
         </div>
     </div>
         
-    <table class="table table-dark table-striped table-hover" style="height: 10rem;">
+    <table class="table table-dark table-striped table-hover w-100 p-3" style="height: 10rem;">
     <tr>
             <th scope="col">Id_Usuário</th>
             <th scope="col">Name</th>
@@ -51,7 +51,7 @@
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
             <td> <a href="notificar_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
-                <input type="button" class="btn btn-outline-secondary" style="width: 10rem; margin: auto;" value="Notificar Usuário">
+                <input type="button" class="btn btn-outline-secondary w-100 p-3" value="Notificar Usuário">
                 </a>
             </td>
         </tr>

@@ -32,7 +32,7 @@
         <input type="submit" value="Enviar">
         <button onclick="Voltar();">Voltar</button>
 </form>
-<table class="table table-dark table-striped table-hover">
+<table class="table table-dark table-striped table-hover w-50 p-3">
     <tr>
             <th scope="col">Cod do Equipamento</th>
             <th scope="col">Nome do Equipamento</th>
