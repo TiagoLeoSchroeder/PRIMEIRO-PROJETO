@@ -20,7 +20,7 @@
     <title>Tela de cadastro de equipamento</title>
 </head>
 <body>
-    <h1 class="textocima">CADASTRO DE EQUIPAMENTOS</h1>
+    <h1 class="textocima">🏋🏻‍ CADASTRO DE EQUIPAMENTOS 🏋🏻‍</h1>
     <form action="cadastrar_equipamento.php" method="POST">
         <h1></h1>
         <label for="Nome"></label>
@@ -32,9 +32,9 @@
         <input type="submit" value="Enviar">
         <button onclick="Voltar();">Voltar</button>
 </form>
-<table class="table table-dark table-striped table-hover w-50 p-3">
+<table class="table table-dark table-striped table-hover" style="width: 56rem;">
     <tr>
-            <th scope="col">Cod do Equipamento</th>
+            <th scope="col">Cod. Registrado do Equipamento</th>
             <th scope="col">Nome do Equipamento</th>
             <th scope="col">Descrição</th>
             <th scope="col">Editar Equipamento</th>

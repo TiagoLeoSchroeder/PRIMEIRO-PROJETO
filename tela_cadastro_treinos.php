@@ -32,7 +32,7 @@
     </form>
     <table class="table table-dark table-striped table-hover w-50 p-3">
     <tr>
-            <th scope="col">Código do treino</th>
+            <th scope="col">Num. Registro do treino</th>
             <th scope="col">Nome do Treino</th>
             <th scope="col">Descrição do Treino</th>
             <th scope="col">Editar Treino</th>

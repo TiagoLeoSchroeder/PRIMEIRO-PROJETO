@@ -6,7 +6,7 @@ body{
 .textocima{
     position: relative;
     top: 1rem;
-    left: 20%;
+    left: 12%;
     color: #fff;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
@@ -16,8 +16,8 @@ body{
 table
 {
     position: relative;
-    bottom: 40.6rem;
-    left: 48rem;
+    bottom: 40.5rem;
+    left: 43.5rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border-style: solid;
@@ -27,7 +27,7 @@ table
 }
 form{
     position: relative;
-    left: 0.5rem;
+    left: 2.4rem;
     top: 2rem;
     width: 40rem;
     height: 41rem;
