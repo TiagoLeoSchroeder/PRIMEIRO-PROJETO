@@ -2,11 +2,11 @@
 
 include('conexao.php');
 //------------------------------------------//
-$nome = $_POST["nome"];
+$nome = $_POST['nome'];
 //------------------------------------------//
 $descricao = $_POST["descricao"];
 //------------------------------------------//
-$comando = $pdo->prepare("INSERT INTO equipamento(nome_treino,descricao_treino) VALUES(:nome,:descricao)");
+$comando = $pdo->prepare("INSERT INTO treino(nome_treino,descricao_treino) VALUES(:nome,:descricao)");
 //------------------------------------------//
 $comando->bindValue(":nome",$nome);
 $comando->bindValue(":descricao",$descricao);

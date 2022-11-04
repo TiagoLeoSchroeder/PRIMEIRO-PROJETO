@@ -6,7 +6,7 @@ body{
 form{
     margin-left: 20rem;
     position: relative;
-    top: 1rem;
+    top: 0.4rem;
     width: 50rem;
     height: 47rem;
     background-image: linear-gradient(to right, #2c2c2e,#58514da1,#80808049);
@@ -15,15 +15,14 @@ form{
     border-color: #000;
     box-shadow: 3px 5px 10px #000;
     border-width: 1px;
-    animation: degrade-animado 5s infinite ease;
 }
-@keyframes degrade-animado{
-   0% {
-    background-position-x: 0%;
-   }
-   100%{
-    background-position-x: 100%;    
-   }
+table
+{
+    width: 10rem;
+    position: relative;
+    top: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 p{
     width: 20rem;

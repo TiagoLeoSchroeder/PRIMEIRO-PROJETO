@@ -1,4 +1,14 @@
+<?php 
+    //IMPORTAR PHP QUE CONECTA COM O BANCO DE DADOS
+    include("conexao.php");
 
+    // COMANDO SQL
+    $comando = $pdo->prepare("SELECT pk_treino, nome_treino, descricao_treino FROM treino");
+
+    // CÓDIGO PARA EXECUTAR O COMANDO ACIMA 
+    $comando->execute();
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +23,37 @@
 
     <form action="cadastrar_treino.php" method="post">
     <p>CADASTRAR TREINOS🏋🏽</p>
-        <input type="text" placeholder="Nome do Treino:" name="nome" id="nome">
+        <input type="text" placeholder="Nome do Treino:" name="nome">
         <br>
         <textarea placeholder="Descrição" name="descricao" id="descricao"></textarea>
         <br>
         <input type="submit">
         <input type="button" value="Voltar" onclick="Voltar()">
     </form>
+    <table class="table table-dark table-striped table-hover">
+    <tr>
+            <th scope="col">Código do treino</th>
+            <th scope="col">Nome do Treino</th>
+            <th scope="col">Descrição do Treino</th>
+            <th scope="col">Editar Treino</th>
+            <th scope="col">Excluir Treino</th>
+        </tr>
+        <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
+        <tr>
+            <td><?php echo $dado["pk_treino"]; ?></td>
+            <td><?php echo $dado["nome_treino"]; ?></td>
+            <td><?php echo $dado["descricao_treino"]; ?></td>
+            <td> <a href="editar_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Editar">
+                </a>
+            </td>
+            <td> <a href="excluir_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+                <input type="button" class="btn btn-outline-secondary" value="Excluir">
+                </a>
+            </td>
+        </tr>
+        <?php } ?>
+        <br>
 <script>
     function Voltar(){
         window.close('tela_cadastro_treinos.php');
