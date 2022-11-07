@@ -20,8 +20,8 @@
     <title>ADMINISTRADOR</title>
 </head>
 <body>
-    <p>BEM-VINDO, ADMINISTRADOR</p>
-    <h1 class="text1">Tabela de usuários cadastrados</h1>
+    <p>⚙ BEM-VINDO, ADMINISTRADOR ⚙</p>
+    <h1 class="text1">Tabela de usuários cadastrados 🤵</h1>
     <table class="table table-dark table-striped table-hover">
     <tr>
             <th scope="col">ID_User</th>
@@ -41,7 +41,7 @@
             <td><?php echo $dado["senha_usuario"]; ?></td>
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
-            <td> <a href="editar_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
+            <td> <a href="editar_usuario2.php?codigo=<?php echo $dado['pk_usuario'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>
             </td>

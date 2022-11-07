@@ -45,7 +45,7 @@
             <td><?php echo $dado["pk_equipamento"]; ?></td>
             <td><?php echo $dado["nome_equipamento"]; ?></td>
             <td><?php echo $dado["descricao_equipamento"]; ?></td>
-            <td> <a href="editar_equipamento.php?codigo=<?php echo $dado['pk_equipamento'] ?>">
+            <td> <a href="editar_equipamento2.php?codigo=<?php echo $dado['pk_equipamento'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>
             </td>
