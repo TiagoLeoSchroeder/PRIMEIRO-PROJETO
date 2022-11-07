@@ -1,0 +1,138 @@
+body{
+    background-image: url('fundo4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+form{
+    position: relative;
+    top: 0.7rem;
+    left: 12rem;
+    width: 70rem;
+    height: 46rem;
+    background-image: linear-gradient(to right, #2c2c2e,#58514da1,#80808049);
+    border-style: solid;
+    border-radius: 20px 0px;
+    border-color: #000;
+    box-shadow: 3px 5px 10px #000;
+    border-width: 1px;
+}
+table
+{
+    position: relative;
+    bottom: 46rem;
+    left: 48rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-color: rgb(77, 75, 75.0.410);
+    border-width: 1.5px;
+    border-color: #fff;
+    box-shadow: -1px -1px 10px #fff;
+}
+p{
+    width: 20rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    margin-left: 4rem;
+    text-shadow: 3px 2px 10px #000;
+    font-style: italic;
+    color: #fff;
+}
+form input[type="text"]{
+    width: 40rem;
+    height: 5rem;
+    background-color: rgba(83, 82, 82, 0.281);
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form input[type="text"]:hover{
+    background-color: rgba(167, 165, 165, 0.418);
+    box-shadow: 3px 5px 10px #fff;
+    color: #fff;
+}
+::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #000;
+    font-style: italic;
+}
+::placeholder:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #000;
+    font-style: italic;
+}
+form textarea{
+    width: 40rem;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(83, 82, 82, 0.288);
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form textarea:hover{
+    background-color: rgb(167, 164, 164);
+    box-shadow: 3px 5px 10px #fff;
+}
+form input[type="submit"]{
+    position: relative;
+    left: 45rem;
+    bottom: 21rem;
+    width: 15rem;
+    height: 5rem;
+    background-color: rgba(83, 82, 82, 0.418);
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 2.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 3px 5px 10px #000;
+    transition: 0.4s;
+}
+form input[type="submit"]:hover {
+    background-color: rgba(168, 165, 165, 0.418);
+    color: #fff;
+    box-shadow: 3px 5px 10px #fff;
+    border-color: #fff;
+}
+form input[type="button"]{
+    position: relative;
+    left: 25rem;
+    bottom: 10rem;
+    width: 15rem;
+    height: 5rem;
+    margin-left: 4.5rem;
+    background-color: rgba(83, 82, 82, 0.418);
+    border-style: solid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    border-radius: 10px;
+    border-color: #000;
+    box-shadow: 6px 4px 10px #000;
+    border-width: 2px;
+    font-size: 2.25rem;
+    transition: 0.4s;
+}
+form input[type="button"]:hover{
+    background-color: rgba(168, 165, 165, 0.418);
+    color: #fff;
+    box-shadow: 3px 5px 10px #fff;
+    border-color: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}

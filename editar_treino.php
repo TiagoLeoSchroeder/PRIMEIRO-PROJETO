@@ -11,7 +11,7 @@
     //insere valores das variaveis no comando sql.
     $comando->bindValue(':codigo',$codigo);
     $comando->bindValue(':nome',$nome);
-    $comando->bindValue(':descricao',$email);
+    $comando->bindValue(':descricao',$descricao);
 
     //executa a consulta no banco de dados.
     $comando->execute();
