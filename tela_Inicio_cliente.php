@@ -10,17 +10,16 @@
 </head>
 <body>
     <header class="cima">
-       <p>🏋🏽 LIFT WEIGHTS - HOME 🏋🏽</p> 
-       <div class="container-4 btn-outline-secondary" id="current-time" style="font-size: 2rem; position: relative; top: 8rem; left: 1.25rem;" ><div class="content-4">
+       <p>🏋🏽 LIFT WEIGHTS-HOME 🏋🏽</p> 
         </div>
             </div>
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela_Perfil.html">PERFIL</a>
-                <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
-                <a href="tela_Listagem_treino.html" >LISTA DE TREINOS</a>
-                <a href="tela_site.html">SAIR</a>
+                <a href="tela_Perfil.html">PERFIL 😎</a>
+                <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES ⚙</a>
+                <a href="tela_Listagem_treino.html" >LISTA DE TREINOS 🏋🏽</a>
+                <a href="tela_site.html">SAIR 🔚</a>
             </div>
         </div>
     </header>
