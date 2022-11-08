@@ -21,7 +21,7 @@
 </head>
 <body>
     <p>⚙ BEM-VINDO, ADMINISTRADOR ⚙</p>
-    <h1 class="text1">Tabela de usuários cadastrados 🤵</h1>
+    <h1 class="text1">Tabela de Usuários Cadastrados 🤵</h1>
     <table class="table table-dark table-striped table-hover">
     <tr>
             <th scope="col">ID_User</th>
@@ -72,7 +72,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="editar_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+        <td><a href="editar_treino2.php?codigo=<?php echo $dado['pk_treino'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>
             </td>
