@@ -111,7 +111,7 @@
 <button onclick="Voltar()">Voltar</button>
 <script>
     function Voltar(){
-        window.open('tela_Logar.html');
         window.close('Login.php');
+        window.open('tela_Logar.html');
     }
 </script>
