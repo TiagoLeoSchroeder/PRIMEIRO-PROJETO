@@ -16,10 +16,10 @@
         <div class="dropdown" id="esconder">
             <button><img src="chad.jpg" id="perfil"></button>
             <div>
-                <a href="tela_Perfil.php">PERFIL 😎</a>
-                <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES ⚙</a>
-                <a href="tela_Listagem_treino.html" >LISTA DE TREINOS 🏋🏽</a>
-                <a href="tela_site.html">SAIR 🔚</a>
+                <a href="tela_Perfil.php">PERFIL</a>
+                <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
+                <a href="tela_Listagem_treino.html" >LISTA DE TREINOS</a>
+                <a href="tela_site.html">SAIR</a>
             </div>
         </div>
     </header>
