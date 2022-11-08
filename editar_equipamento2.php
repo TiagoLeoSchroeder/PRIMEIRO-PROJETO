@@ -32,7 +32,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         function Voltar(){
             window.close('editar_treino2.php');
             window.open('tela_cadastro_treinos.php');
-    
+        }
     </script>
 </body>
 </html>

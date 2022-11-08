@@ -58,10 +58,7 @@
         </div> 
     </div>
     <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
-    <script>
-        document.getElementById('current-time').innerHTML = Date();
-    
-    
+    <script>    
         VanillaTilt.init(document.querySelectorAll(".card"), {
             max: 25,
             speed: 400,

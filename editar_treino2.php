@@ -19,7 +19,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <body>
     <!--O action determina para onde será enviado os dados do formulário.-->
     <form action="editar_treino.php?codigo=<?php echo $_GET['codigo']; ?>" method="POST" enctype="multipart/form-data">
-    <p>CADASTRAR TREINOS🏋🏽</p>
+    <p>EDITAR TREINOS🏋🏽</p>
         <input type="text" placeholder="Nome do Treino:" name="nome">
         <br>
         <textarea placeholder="Descrição" name="descricao" id="descricao"></textarea>
