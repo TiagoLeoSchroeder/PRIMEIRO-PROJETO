@@ -22,7 +22,6 @@ h1{
 .container
 {
     position: relative;
-    bottom: 41rem;
     left: 18rem;
     width: 60rem;
     height: 45rem;
@@ -94,10 +93,12 @@ h1{
     transform: translateY(8px);
   }
 .paragraph{
+    width: 15rem;
     position: relative;
     top: 6rem;
     left: 8rem;
     font-size: 5rem;
+    flex-wrap: unset;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
