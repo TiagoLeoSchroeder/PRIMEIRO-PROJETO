@@ -50,7 +50,7 @@
             <td><?php echo $dado["senha_usuario"]; ?></td>
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
-            <td> <a href="notificar_usuario.php?codigo=<?php echo $dado['pk_usuario'] ?>">
+            <td> <a href="notificar_usuario2.php?codigo=<?php echo $dado['pk_usuario'] ?>">
                 <input type="button" class="btn btn-outline-secondary w-100 p-3" value="Notificar Usuário">
                 </a>
             </td>

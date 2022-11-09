@@ -72,7 +72,7 @@
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="editar_treino2.php?codigo=<?php echo $dado['pk_treino'] ?>">
+        <td><a href="##.php?codigo=<?php echo $dado['pk_treino'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>
             </td>

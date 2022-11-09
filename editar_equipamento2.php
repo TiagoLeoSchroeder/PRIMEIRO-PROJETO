@@ -30,8 +30,8 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     </form>
     <script>
         function Voltar(){
-            window.close('editar_treino2.php');
-            window.open('tela_cadastro_treinos.php');
+            window.close('editar_equipamento2.php');
+            window.open('tela_equipamento.php');
         }
     </script>
 </body>

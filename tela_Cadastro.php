@@ -42,28 +42,11 @@
                 </select>
             </div>
            
-            <label for="imagem"
-        style="position: relative;
-             left: 2rem;
-             margin-top: 2rem; 
-             padding: 10px 10px; 
-             width: 17rem; 
-             background-color: #333; 
-             color: #FFF; 
-             text-transform: uppercase; 
-             text-align: center; 
-             display: block; 
-             margin-top: 10px; 
-             cursor: pointer; 
-             border: solid #fff; 
-             border-radius: 10rem; 
-             border-witdth: 1px; 
-             font-style: italic; 
-             box-shadow: 3px 5px 10px #fff; 
-             transition: 0.5s;            
-             label:hover{background: rgba(255, 0, 0, 0.459);}
-             ">
-            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;">ENVIAR ARQUIVO</input>
+            <label for="imagem" style="position: relative; left: 2rem; margin-top: 2rem; padding: 10px 10px; width: 17rem; 
+            background-color: #333; color: #FFF; text-transform: uppercase; text-align: center; display: block; margin-top: 10px; 
+             cursor: pointer; border: solid #fff; border-radius: 10rem; border-witdth: 1px; font-style: italic; box-shadow: 3px 5px 10px #fff; 
+             transition: 0.5s; label:hover{background: rgba(255, 0, 0, 0.459);} ">
+            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;" multiple accept="image/*">ENVIAR ARQUIVO</input>
     </label>
 
     <br>
