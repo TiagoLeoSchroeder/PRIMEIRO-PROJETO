@@ -14,7 +14,7 @@
 
     $biotipo = $_POST["biotipo"];
 
-    $imagem = $_FILES['imagem'];
+    $imagem = $_FILES['imagem']; 
 
     $extensao = $imagem['type'];
 
