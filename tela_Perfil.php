@@ -19,7 +19,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 </head>
 <body>
     <h1>PERFIL</h1>
-    <?php include("listar_usuario_conectado.php"); echo '<img height="80px" width="80px" style=" width: 25rem; height: 21rem; position: relative; left: 6rem; margin-top: 5rem; border-radius: 20rem;" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?>
+    <?php include("listar_usuario_imagem.php"); echo '<img height="80px" width="80px" style=" width: 25rem; height: 21rem; position: relative; left: 6rem; margin-top: 5rem; border-radius: 20rem;" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?>
     <p class="paragraph"> <?php include("listar_usuario_conectado.php"); echo "".$informacoes_usuario['nome_usuario'].""; ?></p>
     <form class="container" style="position: relative; bottom: 43rem;">
         <br>

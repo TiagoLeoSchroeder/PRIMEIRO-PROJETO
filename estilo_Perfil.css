@@ -12,7 +12,7 @@ body{
 h1{
     position: relative;
     left: 4.5rem;
-    top: 2rem;
+    top: 1rem;
     font-size: 8rem;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -96,7 +96,7 @@ h1{
 .paragraph{
     width: 15rem;
     position: relative;
-    top: 6rem;
+    top: 2rem;
     left: 8rem;
     font-size: 5rem;
     flex-wrap: unset;
