@@ -20,7 +20,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <!--O action determina para onde será enviado os dados do formulário.-->
     <div class="container">
         <h2 style="font-family: 'Courier New', Courier, monospace;">EDITAR USUÁRIO</h2>
-        <form action="editar_usuario.php" method="post">
+        <form action="editar_usuario.php?codigo=<?php echo $_GET['codigo']; ?>" method="post" enctype="multipart/form-data">
             <div class="input-field">
                 <input type="text" id="nome" name="nome" placeholder="alguma coisa" required>
                 <label for="nome">Nome:</label>
@@ -73,7 +73,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
              transition: 0.5s;            
              label:hover{background: rgba(255, 0, 0, 0.459);}
              ">
-            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;">ENVIAR ARQUIVO</input>
+            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;" multiple accept="image/*">ENVIAR ARQUIVO</input>
     </label>
 
     <br>

@@ -17,7 +17,7 @@
             <div>
                 <a href="tela_Perfil.php">PERFIL</a>
                 <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
-                <a href="tela_Listagem_treino.html" >LISTA DE TREINOS</a>
+                <a href="tela_Listagem_treino.php" >LISTA DE TREINOS</a>
                 <a href="tela_site.html">SAIR</a>
             </div>
         </div>
