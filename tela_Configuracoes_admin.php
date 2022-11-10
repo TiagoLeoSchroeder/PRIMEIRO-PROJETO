@@ -3,7 +3,7 @@
     include("conexao.php");
 
     // COMANDO SQL
-    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario FROM usuario");
+    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, imagem_usuario FROM usuario");
 
     // CÓDIGO PARA EXECUTAR O COMANDO ACIMA 
     $comando->execute();
@@ -28,6 +28,7 @@
         
     <table class="table table-dark table-striped table-hover w-100 p-3" style="height: 10rem;">
     <tr>
+            <th scope="col">Foto</th>
             <th scope="col">Id_Usuário</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
@@ -44,6 +45,7 @@
         /* <th>: gera uma célula de cabeçalho para a tabela */
         ?>
         <tr>
+            <td> <?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
             <td><?php echo $dado["pk_usuario"]; ?></td>
             <td><?php echo $dado["nome_usuario"]; ?></td>
             <td><?php echo $dado["email_usuario"]; ?></td>
