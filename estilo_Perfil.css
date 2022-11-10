@@ -22,7 +22,7 @@ h1{
 .container
 {
     position: relative;
-    bottom: 37rem;
+    bottom: 41rem;
     left: 18rem;
     width: 60rem;
     height: 45rem;
@@ -96,7 +96,7 @@ h1{
 .paragraph{
     position: relative;
     top: 6rem;
-    left: 6rem;
+    left: 8rem;
     font-size: 5rem;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;

@@ -3,7 +3,7 @@
     include("conexao.php");
 
     // COMANDO SQL
-    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario FROM usuario");
+    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, imagem_usuario FROM usuario");
 
     // CÓDIGO PARA EXECUTAR O COMANDO ACIMA 
     $comando->execute();
@@ -24,6 +24,7 @@
     <h1 class="text1">Tabela de Usuários Cadastrados 🤵</h1>
     <table class="table table-dark table-striped table-hover">
     <tr>
+            <th scope="col">Foto_Usuário</th>
             <th scope="col">ID_User</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
@@ -35,6 +36,7 @@
         </tr>
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
+            <td> <?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
             <td><?php echo $dado["pk_usuario"]; ?></td>
             <td><?php echo $dado["nome_usuario"]; ?></td>
             <td><?php echo $dado["email_usuario"]; ?></td>

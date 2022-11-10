@@ -2,9 +2,10 @@
     include("conexao.php");
 
     //comando sql.
-    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario,is_adm_usuario, genero_usuario, biotipo_usuario  FROM usuario WHERE pk_usuario=:pk_usuario;");
+    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, imagem_usuario, is_adm_usuario, genero_usuario, biotipo_usuario  FROM usuario WHERE pk_usuario=:pk_usuario;");
     
     //insere valores das variaveis no comando sql.
+    session_start();
     $comando->bindValue(":pk_usuario", $_SESSION['pk_usuario']);
 
     //executa a consulta no banco de dados.

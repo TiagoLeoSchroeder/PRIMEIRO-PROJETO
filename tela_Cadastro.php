@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h2>Cadastro</h2>
-        <form action="inserir.php" method="post">
+        <form action="inserir.php" method="post" enctype="multipart/form-data">
             <div class="input-field">
                 <input type="text" id="nome" name="nome" placeholder="alguma coisa" required>
                 <label for="nome">Nome:</label>

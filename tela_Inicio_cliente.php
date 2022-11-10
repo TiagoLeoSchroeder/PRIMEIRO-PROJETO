@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
         </div>
             </div>
         <div class="dropdown" id="esconder">
-            <button><img src="chad.jpg" id="perfil"></button>
+            <button><?php include("listar_usuario_conectado.php"); echo '<img height="80px" width="80px" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?></button>
             <div>
                 <a href="tela_Perfil.php">PERFIL</a>
                 <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
