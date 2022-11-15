@@ -36,7 +36,7 @@
         </tr>
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
-            <td> <?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
+            <td><?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
             <td><?php echo $dado["pk_usuario"]; ?></td>
             <td><?php echo $dado["nome_usuario"]; ?></td>
             <td><?php echo $dado["email_usuario"]; ?></td>
@@ -68,21 +68,25 @@
             <th scope="col">Edit Treino</th>
             <th scope="col">Del Treino</th>
         </tr>
+        <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><a href="##.php?codigo=<?php echo $dado['pk_treino'] ?>">
+            <td><?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
+            <td><?php echo $dado[""]; ?></td>
+            <td><?php echo $dado[""]; ?></td>
+            <td><?php echo $dado[""]; ?></td>
+            <td><?php echo $dado[""]; ?></td>
+            <td><?php echo $dado[""]; ?></td>
+            <td><?php echo $dado[""]; ?></td>
+            <td> <a href="editar_##.php?codigo=<?php echo $dado['pk_usuario'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>
             </td>
-            <td><a href="excluir_treino.php?codigo=<?php echo $dado['pk_treino'] ?>">
+            <td> <a href="excluir_treino.php?codigo=<?php echo $dado['pk_usuario'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Excluir">
                 </a>
             </td>
         </tr>
+        <?php } ?>
     </table>
     <div class="voltar"><h1><a href="tela_inicio_admin.php">VOLTAR</h1></a></div>
 </body>
