@@ -9,6 +9,7 @@
     $comando = $pdo->prepare("UPDATE treino SET nome_treino = :nome, descricao_treino = :descricao WHERE pk_treino = :codigo;");
 
     //insere valores das variaveis no comando sql.
+    //bindValue: Para realizar a definição do valor de um parâmetro, esse método pode receber como argumento tanto uma referência como um valor direto.
     $comando->bindValue(':codigo',$codigo);
     $comando->bindValue(':nome',$nome);
     $comando->bindValue(':descricao',$descricao);

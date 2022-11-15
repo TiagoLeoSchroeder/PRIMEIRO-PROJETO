@@ -36,6 +36,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                 <label for="senha">Senha:</label>
             </div>
 
+            <!--Select: Cria uma caixa de seleção-->
+            <!--Option: Cria uma opção para a caixa de seleção-->
+            <!--Value:  Adiciona um valor atributo-->
             <div class="container-2">
                 <select name="genero" class="format" required>
                 <option value="0" selected disabled>Seu Gênero:</option>
@@ -73,11 +76,14 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
              transition: 0.5s;            
              label:hover{background: rgba(255, 0, 0, 0.459);}
              ">
+             <!--Input: cria uma entrada-->
+             <!--type="file": Define o que o input vai ser, no caso, vai ser um input de enviar arquivo.-->
             <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;">ENVIAR ARQUIVO</input>
     </label>
 
     <br>
             <div class="center">
+                <!--Button: Cria um objeto botão.-->
                 <button>EDITAR</button>
             </div>
             <div class="center">
