@@ -24,6 +24,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <br>
         <textarea placeholder="Descrição" name="descricao" id="descricao"></textarea>
         <br>
+        <!--type="submit": Cria um input do tipo "envio".-->
         <input type="submit" value="Atualizar" name="submit">
         <input type="button" value="Voltar" onclick="Voltar()">
     </form>

@@ -1,6 +1,9 @@
 <?php
     include("conexao.php");
 
+    //$_GET: É usada para coletar dados de formulário depois de enviar um formulário HTML.
+    //$_POST: É usada para coletar dados de formulário depois de enviar um formulário HTML.
+    //MD5: metódo php de criptografia.
     $codigo = $_GET['codigo'];
     $nome = $_POST["nome"];
     $email = $_POST["email"];

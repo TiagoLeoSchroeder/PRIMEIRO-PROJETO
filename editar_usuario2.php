@@ -14,7 +14,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo_cadastro.css">
-    <title>Conexão Banco de Dados</title>
+    <title>EDITAR USUÁRIO</title>
 </head>
 <body>
     <!--O action determina para onde será enviado os dados do formulário.-->
@@ -36,6 +36,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                 <label for="senha">Senha:</label>
             </div>
 
+            <!--Select: Cria uma caixa de seleção-->
+            <!--Option: Cria uma opção para a caixa de seleção-->
+            <!--Value:  Adiciona um valor atributo-->
             <div class="container-2">
                 <select name="genero" class="format" required>
                 <option value="0" selected disabled>Seu Gênero:</option>
@@ -73,11 +76,14 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
              transition: 0.5s;            
              label:hover{background: rgba(255, 0, 0, 0.459);}
              ">
-            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;" multiple accept="image/*">ENVIAR ARQUIVO</input>
+             <!--Input: cria uma entrada-->
+             <!--type="file": Define o que o input vai ser, no caso, vai ser um input de enviar arquivo.-->
+            <input type="file" class="input-field" name="imagem" id="imagem" style="display: none;">ENVIAR ARQUIVO</input>
     </label>
 
     <br>
             <div class="center">
+                <!--Button: Cria um objeto botão.-->
                 <button>EDITAR</button>
             </div>
             <div class="center">
