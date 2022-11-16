@@ -68,6 +68,13 @@
             <th scope="col">Edit Treino</th>
             <th scope="col">Del Treino</th>
         </tr>
+        <!-- while: O propósito da declaração while é simples. Ele dirá ao PHP para executar as declarações aninhadas repetidamente. -->
+
+        <!-- fetch: Busca a próxima linha de um conjunto de resultados. -->
+
+        <!-- PDO::FETCH_ASSOC: Diz ao PDO para retornar o resultado como um array associativo.
+             Arrays associativos são estruturas onde cada elemento é identificado por uma chave única. -->
+             
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
             <td><?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
