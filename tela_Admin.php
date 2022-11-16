@@ -3,7 +3,7 @@
     include("conexao.php");
 
     // COMANDO SQL
-    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, imagem_usuario FROM usuario");
+    $comando = $pdo->prepare("SELECT pk_usuario, nome_usuario, email_usuario, senha_usuario, genero_usuario, biotipo_usuario, equipamento_usuario, imagem_usuario FROM usuario");
 
     // CÓDIGO PARA EXECUTAR O COMANDO ACIMA 
     $comando->execute();
@@ -25,12 +25,13 @@
     <table class="table table-dark table-striped table-hover">
     <tr>
             <th scope="col">Foto_Usuário</th>
-            <th scope="col">ID_User</th>
-            <th scope="col">Name</th>
+            <th scope="col">ID_Usuário</th>
+            <th scope="col">Nome</th>
             <th scope="col">Email</th>
-            <th scope="col">Password</th>
-            <th scope="col">Gender</th>
-            <th scope="col">Biotype</th>
+            <th scope="col">Senha</th>
+            <th scope="col">Gênero</th>
+            <th scope="col">Biotipo</th>
+            <th scope="col">Equipamento</th>
             <th scope="col">Edit Usuário</th>
             <th scope="col">Del Usuário</th>
         </tr>
@@ -43,6 +44,7 @@
             <td><?php echo $dado["senha_usuario"]; ?></td>
             <td><?php echo $dado["genero_usuario"]; ?></td>
             <td><?php echo $dado["biotipo_usuario"]; ?></td>
+            <td><?php echo $dado["equipamento_usuario"]; ?></td>
             <td> <a href="editar_usuario2.php?codigo=<?php echo $dado['pk_usuario'] ?>">
                 <input type="button" class="btn btn-outline-secondary" value="Editar">
                 </a>

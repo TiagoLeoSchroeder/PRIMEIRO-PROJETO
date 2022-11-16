@@ -19,9 +19,9 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 </head>
 <body>
     <h1>PERFIL</h1>
-    <?php include("listar_usuario_imagem.php"); echo '<img height="80px" width="80px" style=" width: 25rem; height: 21rem; position: relative; left: 6rem; margin-top: 5rem; border-radius: 69rem;" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?>
+    <?php include("listar_usuario_imagem.php"); echo '<img height="80px" width="80px" style=" width: 25rem; height: 21rem; position: relative; left: 6rem; margin-top: 1rem; border-radius: 69rem;" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?>
     <p class="paragraph" style="position: relative; bottom: 1rem; left: 9rem;"> <?php include("listar_usuario_conectado.php"); echo "".$informacoes_usuario['nome_usuario'].""; ?></p>
-    <form class="container" style="position: relative; bottom: 42rem;">
+    <form class="container" style="position: relative; bottom: 46rem; height: 54rem;">
         <br>
         <div class="mb-3">
         <br>
@@ -41,6 +41,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
           <div class="mb-3">
             <p class="paragraph2"></p>
             <input class="form-control" type="text" value=" <?php include("listar_usuario_conectado.php"); echo "".$informacoes_usuario['biotipo_usuario'].""; ?>" aria-label="Disabled input example" disabled readonly>
+          </div>
+          <p class="paragraph2">Equipamento</p>
+          <div class="mb-3">
+            <p class="paragraph2"></p>
+            <input class="form-control" type="text" value=" <?php include("listar_usuario_conectado.php"); echo "".$informacoes_usuario['equipamento_usuario'].""; ?>" aria-label="Disabled input example" disabled readonly>
           </div>
           <div class="button" style="position: relative; top: 1.5rem;"><a href="tela_Inicio_cliente.php">VOLTAR</a></div>
     </form>

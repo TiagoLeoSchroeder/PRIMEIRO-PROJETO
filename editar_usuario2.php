@@ -47,6 +47,12 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                 <option value="Outro">Outro</option>
                 </select>
 
+                <select name="equipamento" class="format" required>
+                    <option value="0" selected disabled>Equipamento:</option>
+                    <option value="Com equipamento">Com equipamento</option>
+                    <option value="Sem equipamento">Sem equipamento</option>
+                </select>
+
                 <select name="biotipo" class="format" required>
                         <option value="0" selected disabled>Seu Biotipo:</option>
                         <option value="Endomorfo">Endomorfo</option>
