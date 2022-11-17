@@ -22,7 +22,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <p>EDITAR TREINOS🏋🏽</p>
         <input type="text" placeholder="Nome do Treino:" name="nome">
         <br>
-        <textarea placeholder="Descrição" name="descricao" id="descricao"></textarea>
+        <textarea placeholder="Descrição:" name="descricao" id="descricao"></textarea>
         <br>
         <!--type="submit": Cria um input do tipo "envio".-->
         <input type="submit" value="Atualizar" name="submit">
