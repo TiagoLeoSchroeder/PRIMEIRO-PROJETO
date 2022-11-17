@@ -35,6 +35,7 @@
             <th scope="col">Edit Usuário</th>
             <th scope="col">Del Usuário</th>
         </tr>
+        <!-- O código abaixo vai criar uma tabela pegando os registros de cada usuário e inserindo-os nessa tabela -->
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
             <td><?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
