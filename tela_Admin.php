@@ -35,9 +35,13 @@
             <th scope="col">Edit Usuário</th>
             <th scope="col">Del Usuário</th>
         </tr>
-        <!-- O código abaixo vai criar uma tabela pegando os registros de cada usuário e inserindo-os nessa tabela -->
-        <!-- while: O propósito da declaração while é simples. Ele dirá ao PHP para executar as declarações aninhadas repetidamente -->
-        <!-- fetch: Busca a próxima linha de um conjunto de resultado -->
+       <!-- while: O propósito da declaração while é simples. Ele dirá ao PHP para executar as declarações aninhadas repetidamente. -->
+
+        <!-- fetch: Busca a próxima linha de um conjunto de resultados. -->
+
+        <!-- PDO::FETCH_ASSOC: Diz ao PDO para retornar o resultado como um array associativo.
+             Arrays associativos são estruturas onde cada elemento é identificado por uma chave única. -->
+             
         <!-- PDO: A extensão PHP Data Objects (PDO) define uma interface leve e consistente para acessar bancos de dados em PHP -->
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
@@ -74,12 +78,7 @@
             <th scope="col">Edit Treino</th>
             <th scope="col">Del Treino</th>
         </tr>
-        <!-- while: O propósito da declaração while é simples. Ele dirá ao PHP para executar as declarações aninhadas repetidamente. -->
-
-        <!-- fetch: Busca a próxima linha de um conjunto de resultados. -->
-
-        <!-- PDO::FETCH_ASSOC: Diz ao PDO para retornar o resultado como um array associativo.
-             Arrays associativos são estruturas onde cada elemento é identificado por uma chave única. -->
+        
              
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
