@@ -16,11 +16,9 @@
 	if($quantidade_avisos == 3):
 		$status = 0;
 		$aviso = 2;
-		$data = date('Y-m-d', strtotime('+10 days'));
-		$alterar = $pdo->prepare("UPDATE usuario SET status_usuario = :s, aviso_usuario = :a, data = :d WHERE pk_usuario = :pk");
+		$alterar = $pdo->prepare("UPDATE usuario SET status_usuario = :s, aviso_usuario = :a,  WHERE pk_usuario = :pk");
 		$alterar -> bindValue(':s', $status);
 		$alterar -> bindValue(':a', $aviso);
-		$alterar -> bindValue(':d', $data);
 		$alterar -> bindValue(':pk', $ref);
 		$alterar -> execute();
 		

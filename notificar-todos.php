@@ -32,7 +32,7 @@
 		$quantidade_avisos = strip_tags($mostra['contagem_avisos_usuario']);
 		$status = 1;
 		$avisos = $quantidade_avisos + 1;
-	
+		
 		$altera = $pdo->prepare("UPDATE usuario SET aviso_usuario = :stat, contagem_avisos_usuario = :aviso");
 		$altera -> bindValue(':stat', $status);
 		$altera -> bindValue(':aviso', $avisos);

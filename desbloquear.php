@@ -2,24 +2,23 @@
 	include('conexao.php');
 	
 	$ref = filter_input(INPUT_GET, 'codigo');
-	$consulta = $pdo->prepare("SELECT * FROM si_usuarios WHERE usuarios_id = :id");
+	$consulta = $pdo->prepare("SELECT * FROM usuario WHERE pk_usuario = :pk");
 	$consulta -> bindValue(":id", $ref);
 	$consulta -> execute();
 	
 	foreach($consulta as $mostra):
 	endforeach;
 
-	$quantidade_avisos = strip_tags($mostra['usuarios_contagem_avisos']);
+	$quantidade_avisos = strip_tags($mostra['contagem_avisos_usuario']);
 	$status = 1;
 	$aviso = 1;
 	$contagem = 0;
 	
-	$alterar = $pdo->prepare("UPDATE si_usuarios SET usuarios_status = :s, usuarios_aviso = :a, usuarios_contagem_avisos = :c, data = :d WHERE usuarios_id = :id");
+	$alterar = $pdo->prepare("UPDATE usuario SET status_usuario = :s, aviso_usuario = :a, contagem_avisos_usuario = :c, WHERE pk_usuario = :pk");
 		$alterar -> bindValue(':s', $status);
 		$alterar -> bindValue(':a', $aviso);
-		$alterar -> bindValue(':d', '0000-00-00');
 		$alterar -> bindValue(':c', $contagem);
-		$alterar -> bindValue(':id', $ref);
+		$alterar -> bindValue(':pk', $ref);
 		$alterar -> execute();
 		
 		if($alterar):
