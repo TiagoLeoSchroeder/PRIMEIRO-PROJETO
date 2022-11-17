@@ -36,6 +36,9 @@
             <th scope="col">Del Usuário</th>
         </tr>
         <!-- O código abaixo vai criar uma tabela pegando os registros de cada usuário e inserindo-os nessa tabela -->
+        <!-- while: O propósito da declaração while é simples. Ele dirá ao PHP para executar as declarações aninhadas repetidamente -->
+        <!-- fetch: Busca a próxima linha de um conjunto de resultado -->
+        <!-- PDO: A extensão PHP Data Objects (PDO) define uma interface leve e consistente para acessar bancos de dados em PHP -->
         <?php while($dado = $comando->fetch( PDO::FETCH_ASSOC )){ ?>
         <tr>
             <td><?php echo '<img height="80px" width="80px" style="border-radius: 10px;" src="' .$dado['imagem_usuario']. '">'; ?> </td>
