@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Of Legends</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="escolher_treinos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.6.1.min.js"></script>
+</head>
+<body>
+<div class="tudo1">
+    <div class="treino_pre">
+        <div class="l1">
+            <h1>Treinar treino</h1>
+            <h1>pre estabelecido!</h1>
+        </div>
+        <div class="em_cima1">
+            <h3>O treinamento pré estabelecido se trata de um treino já pronto feito por nós!</h3>
+            <h3>Nele, você treinará todos os músculos em uma rotina.</h3>
+            <h3>Não se preucupe, caso a necessidade da pausa da rotina, ela continuará normalmente!</h3>
+        </div>
+        <div onclick="" class="comecar1">
+            <H1>começar!</H1>
+        </div>
+        <div onclick="" class="continuar">
+            <H1>continuar!</H1>
+        </div>
+    </div>
+
+
+    <div class="escolher_treino">
+        <div class="l2">
+            <h1>Fazer seu treino</h1>
+        </div>
+        <div class="em_cima2">
+            <h3>Faça seu própio treino escolhendo os musculos que você dejesa treinar!</h3>
+        </div>
+        <div onclick="javascript:$('.tudo1').hide();$('.tudo2').show();" class="comecar2">
+            <H1>começar!</H1>
+        </div>
+    </div>
+</div>
+
+<div class="tudo2">
+        <div class="voltar">
+        </div>
+    <div class="dentro" ><h1>Escolha quais musculos você quer treinar!</h1>
+    </div>
+
+    <div class="braco">
+        <div class="container text-center">
+            <div class="row row-cols-5 container">
+                <div  onclick="javascript:mostraExercicios(1)" class="col card" id="quadrado1">
+                    <img class="shadow-inset-lg" id="imagem_item" src="braco.png">
+                    <div class="content" style="position: absolute;">
+                        <h1 id="texto"> Treinar braço</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <!--
+        <div class="escolha1">
+            <div onclick="javascript:mostraExercicios(1)" class="em_cima6">
+                <h3>treinar biceps</h3>
+            </div>       
+            <div onclick="javascript:mostraExercicios(2)" class="em_cima3">
+                <h3>treinar triceps</h3>
+            </div>
+            <div onclick="javascript:mostraExercicios(3)" class="em_cima4">
+                <h3>treinar deltoide</h3>
+            </div>
+            <div onclick="javascript:mostraExercicios(4)" class="em_cima5">
+                <h3>treinar antebraço</h3>
+            </div>     
+        </div>
+        -->
+    </div>
+</div>
+
+    <div class="container text-center">
+        <div class="row row-cols-5 container">
+            <div  onclick="javascript:mostraExercicios(2)" class="col card" id="quadrado1">
+                <img class="shadow-inset-lg" id="imagem_item" src="pernas.png">
+                <div class="content" style="position: absolute;">
+                    <h1 id="texto"> Treinar perna</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lista_ex">
+        <h3>Exercicios</h3>
+        <div id="lista_ex2">
+        </div>
+
+    </div>
+</div>
+        
+
+    </body>
+<script>
+    $('.tudo2').hide();
+
+    /* Ao carregar a tela busca a lista de treinos */
+    $( document ).ready(function() 
+    {
+        /* ajax para buscar a lista de treinos */arguments
+        /* montar caixas para mostrar os treinos na tela */
+    });
+
+
+    function mostraExercicios(idExercicio)
+    {
+        $(".lista_ex").show();
+        $("#lista_ex2").html('Pesquisando #'+idExercicio);
+        /* Obtem os exercicios via ajax */ 
+        $.post('obtemEx.php',{id:idExercicio})
+        .done(function(h)
+        {
+            $("#lista_ex2").html(h);
+        })
+        .fail(function(xhr, status, error) 
+        {
+            $("#lista_ex2").html('Não foi possível obter a lista de exercícios ['+status+']');
+        });                
+    }
+</script>
+
+
+</html>
