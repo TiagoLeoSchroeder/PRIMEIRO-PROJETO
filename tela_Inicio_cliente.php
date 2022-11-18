@@ -16,7 +16,6 @@
             <button><?php include("listar_usuario_inicio.php"); echo '<img height="180px" width="160px" style="position: relative; right: 1.25rem; bottom: 0.6rem; border-radius: 80px" src="' .$informacoes_usuario['imagem_usuario']. '">'; ?></button>
             <div>
                 <a href="tela_Perfil.php">PERFIL</a>
-                <a href="tela_Configuracoes_cliente.html" >CONFIGURAÇÕES</a>
                 <a href="tela_Listagem_treino.php" >LISTA DE TREINOS</a>
                 <a href="tela_site.html">SAIR</a>
             </div>

@@ -24,7 +24,6 @@
             <button><img src="adm.png" id="perfil"></button>
             <div>
                 <a href="##">ADMIN - O BRABO</a>
-                <a href="tela_Configuracoes_admin.php">Notificar clientes</a>
                 <a href="tela_site.html">Sair</a>
             </div>
         </div>
